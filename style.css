@@ -1,0 +1,153 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	background: url(bg.jpg) no-repeat center top / cover; /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    font-family: sans-serif;
+}
+.box{
+	width: 70%;
+	margin: 0 auto;
+	opacity: 1;
+}
+#logo{
+	width: 45%;
+	animation-name: Log;
+	animation-duration: 4s;
+}
+@keyframes Log {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#logoBox p{
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 2%;
+}
+#buttonCall:hover {
+	background-color: rgba(0, 50, 50, 0);
+	transition: 1s ease;
+}
+#buttonCall:hover a{
+	color: #353638;
+}
+#buttonCall a{
+	height: 100%;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+}
+#buttonCall{
+	transition: 1s ease;
+	font-size: 1vw;
+	border: 4px solid #353638;
+	background-color: #353638;
+	width: 15%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0.2%;
+	border-radius: 15px;
+	margin-bottom: 12%;
+}
+#icon{
+	width: 50%;
+	margin: 15%;
+	margin-top: 25%;
+	margin-bottom: 25%;
+	transform: rotate(-10deg)
+}
+#icon:hover{
+	cursor: pointer;
+}
+#div{
+	width: 100%;
+	margin-top: 40%;
+	font-size: 2vw;
+}
+#div h1{
+	width: 100%;
+	color: #353638;
+}
+.blockTwo{
+	height: auto;
+	display: inline-block;
+	width: 49%;
+}
+.Project{
+	border-radius: 25px;
+	width: 55%;
+	height: auto;
+	background-color: white;
+	margin-bottom: 4%;
+}
+.nameProject{
+	font-size: 2vw;
+	color: #353638;
+	margin: 3%; 
+	font-weight: bold;
+}
+.nameProject a{
+	color: #353638;
+	text-decoration: none;
+}
+.nameProject:hover a{
+	text-decoration: overline;
+}
+.boxProject{
+	width: 80%;
+	float: right;
+	text-align: center;
+}
+.statsProject{
+	font-size: 1vw;
+	font-weight: bold;
+}
+.statsTProject{
+	width: 30%;
+	display: inline-block;
+}
+.imgProject{
+	width: 18%;
+	float: left;
+	margin: 1%;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.width100{
+	width: 100%;
+}
+#sectionThreeText h1{
+	margin-top: 11%;
+	margin-bottom: 7.5%;
+	color: #353638;
+	text-align: center;
+	font-size: 5vw;
+	
+	font-family: 'Lobster', cursive;
+}
+.project2020{
+	width: 49%;
+	text-align: 
+	height: 100%;
+	margin: 0;
+	padding-top: 2.5%;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+.allRightReserved{
+	color: #dadada;
+	font-size: 0.75vw;
+	text-align: right;
+}
+#CheremaTK{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.margin{
+	margin: 0;
+}
