@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BESD Production</title>
+	<meta name="viewport" content="vidth=device-width", initial-scale=1>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" media="all" href="style/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+	<header>
+		<div class="ContentBox">
+			<div class="row">
+				<div class="col-6">
+					<div>
+						<a href="index.html">
+							<img src="style/img/LOGO.png" alt="logo" id="Logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div>
+						<div id="ButtonSupport" class="ButtonHeader"   type="button" onclick="window.location.href = 'https://t.me/sskrinss';">
+							<div id="SupportContent">
+								<h4>
+									Связь
+								</h4>
+								<div id="RecordBoll" class="animBall">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<div id="textLoading">
+							<h1>Наши услуги </br><p><span id="typed"></span></p><!-- <b class="animOpacity">|</b> --></h1>
+						</div>
+						<div class="row" id="listWork">
+							<div class="col-0.5" id="stick">
+								 
+							</div>
+							<div>
+								<div id="list">
+									<h3>- Создание <p>LandingPage</p></h3>
+									<h3>- Разработка <p>ботов</p> под <p>Телеграм</p></h3>
+									<h3>- Продажа <p>рекламы</p> в пабликах</h3>
+									<h3>- <p>Дизайн</p> для ваших проектов</h3>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div>
+								<div class="row">
+									<div class="col-6">
+										<div class="ButtonInfo" id="butPrice" type="button" onclick="scrollToElementPrice()">
+											<h4>
+												Узнать цены
+											</h4>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="ButtonInfo" id="butExample" type="button" onclick="scrollToElementExample()">
+											<h4>
+												Примеры работ
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div id="MainGif">
+						<img src="style/img/gifFirstFull.gif" alt="gif">
+					</div>
+				</div>
+			</div>
+			<div id="InfoSection">
+				<div class="row">
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">49</p>
+							</h1>
+							<b>
+								<p>Выполненных заказов</p>
+							</b>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">14</p>
+							</h1>
+							<b>
+								<p>Отзывов о работе</p>
+							</b>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">7</p>
+							</h1>
+							<b>
+								<p>Людей в команде</p>
+							</b>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">3</p><p>+</p>
+							</h1>
+							<b>
+								<p>Лет в индустрии</p>
+							</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="sectionSecond">
+		<div class="ContentBox">
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<a href="#0" class="cd-btn UrlAdvs" id="modal-trigger" data-type="cd-modal-trigger">
+							<div id="sectionGame">
+								<div class="blockInfoMain">
+									<h1>
+										<p>Наведите</p> чтобы <p>показать</p> последнюю новость.
+									</h1>
+								</div>
+								<div class="blockInfoSecond"   type="button">
+									<h1>Игра <p> Peace the Da</p></h1>
+									<h2>
+										Нажмите что-бы <p>открыть</p>
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<div class="cd-modal" data-modal="modal-trigger">
+		<div class="cd-svg-bg" 
+		data-step1="M-59.9,540.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L864.8-41c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L-59.5,540.6 C-59.6,540.7-59.8,540.7-59.9,540.5z" 
+		data-step2="M33.8,690l-188.2-300.3c-0.1-0.1,0-0.3,0.1-0.3l925.4-579.8c0.1-0.1,0.3,0,0.3,0.1L959.6,110c0.1,0.1,0,0.3-0.1,0.3 L34.1,690.1C34,690.2,33.9,690.1,33.8,690z" 
+		data-step3="M-465.1,287.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L459.5-294c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-464.9,287.7-465,287.7-465.1,287.5z" 
+		data-step4="M-329.3,504.3l-272.5-435c-0.1-0.1,0-0.3,0.1-0.3l925.4-579.8c0.1-0.1,0.3,0,0.3,0.1l272.5,435c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-329,504.5-329.2,504.5-329.3,504.3z" 
+		data-step5="M341.1,797.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L1265.8,216c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L341.5,797.6 C341.4,797.7,341.2,797.7,341.1,797.5z" 
+		data-step6="M476.4,1013.4L205,580.3c-0.1-0.1,0-0.3,0.1-0.3L1130.5,0.2c0.1-0.1,0.3,0,0.3,0.1l271.4,433.1c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C476.6,1013.6,476.5,1013.5,476.4,1013.4z">
+			<svg height="100%" width="100%" preserveAspectRatio="none" viewBox="0 0 800 500">
+				<title>SVG Modal background</title>
+				<path id="cd-changing-path-1" d="M-59.9,540.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L864.8-41c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L-59.5,540.6 C-59.6,540.7-59.8,540.7-59.9,540.5z"/>
+				<path id="cd-changing-path-2" d="M-465.1,287.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L459.5-294c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-464.9,287.7-465,287.7-465.1,287.5z"/>
+				<path id="cd-changing-path-3" d="M341.1,797.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L1265.8,216c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L341.5,797.6 C341.4,797.7,341.2,797.7,341.1,797.5z"/>
+			</svg>
+		</div>
+
+		<div id="ModalWindow" class="cd-modal-content">
+			<b>
+				Peace The De
+			</b>
+
+			<p id="ModalWindowInfo">
+				Название: Peace The Da</br>
+				Категории: Гипер-казуал, бесконечная</br>
+				Платформы: Android</br>
+				Цель: Накопить как можно больше очков
+			</p>
+			<div>
+				<video id="videos" autoplay muted="muted">
+					<source src="style/img/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				</video>
+			</div>
+			<div id="Download">
+				<a href="https://yadi.sk/d/_chuYWX1oI8EJw">
+					<div>
+						<h1>
+							Скачать
+						</h1>
+					</div>
+				</a>
+			</div>
+		</div> 
+	<a href="#0" class="modal-close">Close</a>
+</div> 
+
+	<section id="sectionPrice">
+		<div class="ContentBox">
+			<div id="mainTextBox" class="slideInDown wow">
+				<img src="style/img/iconSupport.png" alt="">
+				<h1>
+					Что мы делаем?
+				</h1>
+				<h3>
+					Список предостовляемыми нами услугами.
+				</h3>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconDesign.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Дизайн
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Стоимость от <p>50 RUB</p></br>
+								Срок изготовления <p>2-6 дней</p>
+							</b>
+						</div>
+						<div>
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond" id="butExample" type="button" onclick="scrollToElementExample()">
+								<h4>
+									Примеры
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconWeb.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Сайты
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Стоимость от <p>2500 RUB</p></br>
+								Срок изготовления <p>14-21 дней</p>
+							</b>
+						</div>
+						<div style="margin-bottom: 1vw;">
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond" id="buttonWeb" type="button" onclick="scrollToElementExampleWeb()">
+								<h4>
+									Примеры
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-1"></div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconAdvs.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Реклама
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Реклама в пабликах <p>Instagram</p></br>
+								Подробности <p>можно узнать</p>
+							</b>
+						</div>
+						<div>
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond">
+								<h4>
+									Подробнее
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork" style="margin-bottom: 10vw;">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconGame.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Боты
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Стоимость от <p>2500 RUB</p></br>
+								Срок изготовления <p>14-21 дней</p>
+							</b>
+						</div>
+						<div>
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond" id="buttonWeb" type="button" onclick="scrollToElementExampleWeb()">
+								<h4>
+									Примеры
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="sectionThird">
+		<div class="ContentBox">
+			<div>
+				<div id="mainNameSectionExample" class="slideInDown wow">
+					<img src="style/img/checklist.png" alt="" id="iconSectionExample">
+					<h1 id="textSectionExample">
+						Что мы уже сделали?
+					</h1>
+					<h3>
+						Список предостовляемыми нами услугами.
+					</h3>
+				</div>
+				<div id="sectionFirstExample">
+					<div id="sectionDesign">
+						<img class="animRotate" src="style/img/Vector1.png" alt="">
+						<h1 class="slideInDown wow">
+							Дизайн
+						</h1>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-3"></div>
+							<div class="col-4">
+								<img src="style/img/design/1.png" alt="" id="iconExampleDesign">
+							</div>
+							<div class="col-4">
+								<img src="style/img/design/3.png" alt="" id="iconExampleDesign">
+							</div>
+							<div class="col-2"></div>
+						</div>
+						<div class="row">
+							<div class="col-2"></div>
+							<div class="col-10">
+								<img id="shapExampleDesign" src="style/img/design/1.jpg" alt="">
+							</div>
+							<div class="col-1"></div>
+						</div>
+						<div class="row">
+							<div class="col-2"></div>
+							<div class="col-10">
+								<img id="shapExampleDesign" src="style/img/design/2.jpg" alt="">
+							</div>
+							<div class="col-1"></div>
+						</div>
+					</div>
+				</div>
+				<div id="sectionSecondExample">
+					<div id="sectionDesign">
+						<img class="animRotate" src="style/img/Vector1.png" alt="">
+						<h1 class="slideInDown wow" id="sectionExampleWeb">
+							Сайты
+						</h1>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-3"></div>
+							<div class="col-4">
+								<a href="#">
+									<img src="style/img/web/web1.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#">
+									<img src="style/img/web/web1.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+							<div class="col-2"></div>
+						</div>
+					</div>
+				</div>
+				<div id="sectionThirdExample">
+					<div id="sectionDesign">
+						<img class="animRotate" src="style/img/Vector1.png" alt="">
+						<h1 class="slideInDown wow">
+							Боты
+						</h1>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-3"></div>
+							<div class="col-4">
+								<a href="http://t.me/BesdSupportBot">
+									<img src="style/img/bot/2.jpg" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="http://t.me/BesdSupportBot">
+									<img src="style/img/bot/1.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+							<div class="col-2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="ContentBox">
+			<div>
+				<div id="mainNameSectionTask" class="slideInDown wow">
+					<img src="style/img/checklist.png" alt="" id="iconSectionTask">
+					<h1 id="textSectionTask" style="margin: 2vw 0;">
+						Какие мы ставим перед собой задачи
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10 textTaskBox">
+						<div class="textButtTaskFirst">
+							Задача №1
+						</div>
+						<div class="textButtTaskSecond">
+							Сроки
+						</div>
+						<h3 class="textTaskMain slideInLeft wow">
+							Интересно, что первый компьютер был размером с микроавтобус и весил почти тонну. В то время как сейчас это может быть маленький чип размером с булавку. И компьютерные технологии не стоят на месте, она быстро прогрессируют.
+						</h3>
+						<h1 class="textTaskNumber">
+							01
+						</h1>
+					</div>
+					<div class="col-1"></div>
+					<div class="col-1"></div>
+					<div class="col-10 textTaskBox">
+						<div class="textButtTaskFirst">
+							Задача №2
+						</div>
+						<div class="textButtTaskSecond">
+							Качевство
+						</div>
+						<h3 class="textTaskMain slideInLeft wow">
+							Интересно, что первый компьютер был размером с микроавтобус и весил почти тонну. В то время как сейчас это может быть маленький чип размером с булавку. И компьютерные технологии не стоят на месте, она быстро прогрессируют.
+						</h3>
+						<h1 class="textTaskNumber">
+							02
+						</h1>
+						<img class="textTaskIcon" src="" alt="">
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 textTaskBox" style="height: -4vw; ">
+						<div class="textButtTaskFirst">
+							Задача №3
+						</div>
+						<div class="textButtTaskSecond">
+							Цена
+						</div>
+						<h3 class="textTaskMain slideInLeft wow">
+							Интересно, что первый компьютер был размером с микроавтобус и весил почти тонну. В то время как сейчас это может быть маленький чип размером с булавку. И компьютерные технологии не стоят на месте, она быстро прогрессируют.
+						</h3>
+						<h1 class="textTaskNumber">
+							03
+						</h1>
+						<img src="">
+						<img class="textTaskIcon" src="" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-1"></div>
+					<div class="col-10 textTaskBoxStock">
+						<div class="textButtTaskSecondStock">
+							Акции
+						</div>
+						<h3 class="textTaskMainStock slideInLeft wow">
+							Интересно, что первый компьютер был размером с микроавтобус и весил почти тонну. В то время как сейчас это может быть маленький чип размером с булавку.						
+						</h3>
+						<h1 class="textTaskNumberStock">
+							04
+						</h1>
+						<h1 class="slideInRight wow" id="whenTaskBottom">
+							Почему?
+						</h1>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section style="background-color: #4b5bd817;">
+		<div class="ContentBox">
+			<div id="scrolStock">
+				<div id="mainNameSectionTask" class="slideInDown wow">
+					<img src="style/img/checklist.png" alt="" id="iconSectionTask">
+					<h1 id="textSectionTask">
+						Действует новогодняя </br><p>МЕГА АКЦИЯ -30%</p>
+					</h1>
+					<h3 style="float: right; padding-right: 20vw;">
+						на все услуги «BESD Production»!
+					</h3>
+				</div>
+				<div class="row">
+					<div class="col-12" style="margin: 2.5vw 0;">
+						<img class="animRotate" id="fireFinish" src="style/img/Vector1.png" alt="">
+						<h1 id="mainCommText">
+							<p>Сообщеите</p> менеджеру промкод - <p>#BESD2021</p>,<br> и вы получите скидку на любые услуги <p>-30%</p>.
+						</h1>
+						<div class="ButtonInfoFinish" type="button" onclick="window.location.href = 'https://t.me/sskrinss';">
+							<h4>
+								Заказать
+							</h4>
+						</div>
+					</div>
+
+					<div class="col-12" id="sectionTimer">
+						<div class="countdown">
+						  	<div class="time-section">
+						  		<span class="count" id="days"></span>
+						  		<span class="units">Дней</span>
+						  	</div>
+						  	<h1 style="position: absolute; left: 33.5%;top: 12%;">:</h1>
+						  	<div class="time-section">
+						  		<span class="count" id="hours"></span>
+						  		<span class="units">Часов</span>
+						  	</div>
+						  	<h1 style="position: absolute; right: 49%;top: 12%;">:</h1>
+						  	<div class="time-section">
+						  		<span class="count" id="minutes"></span>
+						  		<span class="units">Минут</span>
+						  	</div>
+						  	<h1 style="position: absolute; right: 33.5%;top: 12%;">:</h1>
+						  	<div class="time-section">
+						  		<span class="count" id="seconds"></span>
+						  		<span class="units">Секунд</span>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="ContentBox" id="communication">
+			<div class="row">
+				<div class="col-12">
+					<div id="MainGif">
+						<img src="style/img/gifFirstFull.gif" alt="gif">
+					</div>
+				</div>
+				<div class="col-12">
+					<div style="margin-left: 5vw;">
+						<h1 id="commText" style="margin: 3vw 0 7.5vw 0;">
+							Свяжитесь
+						</h1>
+						<h2 id="commText" style="margin:0; position: absolute; top: 10vw;">
+							<p>с нами</p>
+						</h2>
+					</div>
+					<div>
+						<div style="float: left; margin-left: 3vw; margin-top: 3vw;">
+							<a href="https://vk.com/besds">
+								<div style="">
+									<div style="width: 8vw;">
+										<img src="style/img/iv.png" id="iconComm" alt="">
+									</div>
+									<div style="font-weight: bold; ">
+										<n style="font-size: 3vw; margin: 0.1vw;">Написать на VK</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div style="float: right; margin-right: 3vw; margin-top: 3vw;">
+							<a href="https://t.me/sskrinss">
+								<div style="">
+									<div style="width: 8vw; display: inline-block;">
+										<img src="style/img/it.png" id="iconComm" alt="">
+									</div>
+									<div style="font-weight: bold; ">
+										<n style="font-size: 3vw; margin: 0.1vw; float: right; display: inline-block;">Написать на Telegram</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer style="margin-top: 4vw;">
+		<div class="ContentBox">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-5 footerText" style="text-align: left;">
+					2021 © <p>4erema.tk</p>
+				</div>
+				<div class="col-5 footerText" style="text-align: right;">
+					Все права защищены.
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script src="./js/snap.svg-min.js"></script>
+	<script src="./js/main.js"></script>
+    <script src="./js/jquery.spincrement.min.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/time.js"></script>
+    <script src="./js/scrol.js"></script>
+</body>
+</html>
