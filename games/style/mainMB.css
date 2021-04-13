@@ -47,7 +47,7 @@ a:hover{
 	padding: 0.3vw;
 	color: white;
 	font-family: Arial;
-	font-size: 3.25vw;
+	font-size: 3.5vw;
 	font-weight: 550;
 	user-select: none;
 }
@@ -70,11 +70,11 @@ a:hover{
 }
 header{
 	background: white;
-	height: 50vw;
+	height: 35vw;
 }
 #section-first{
 	background: #3787C4;
-	height: 70vw;
+	height: 73vw;
 }
 #div-container-name{
 	margin: 0 auto;
@@ -84,7 +84,7 @@ header{
 	text-align: center;
 	color: white;
 	font-family: sans-serif;
-	font-size: 7.5vw;
+	font-size: 10vw;
 	margin: 4vw 4vw 5vw 4vw;
 }
 #div-container-box{
@@ -93,13 +93,13 @@ header{
 	display: inline-block;
 }
 #div-container-information{
-	padding: 1vw 2vw 3vw 2vw;
+	padding: 0vw 2vw 3vw 2vw;
 }
 #div-container-information h1{
 	text-align: center;
 	color: white;
 	font-family: sans-serif;
-	font-size: 2.75vw;
+	font-size: 4vw;
 }
 #div-void{
 	width: 12.5%;
@@ -119,16 +119,16 @@ header{
 }
 .footer-div{
 	color: #969696;
-	width: 17.5%;
+	width: 30%;
 	padding: 2.5vw 1vw;
 	color: white;
 	display: inline-block;
 	user-select: none;
-	font-size: 2vw;
+	font-size: 3vw;
 }
 .footer-divInfo{
-    width: 35%;
-    padding: 5vw 1vw;
+    width: 100%;
+    padding: 2.5vw 1vw;
 	text-align: center;
 }
 .footer-div p{
@@ -139,19 +139,19 @@ header{
 	margin: 0.25vw;
 }
 footer{
-	height: 45vw;
+	height: 35vw;
 	background-color: #2b2c2d;
 }
 ul{
 	padding: 0 1vw;
 }
 #div-discord{
-	width: 23.24vw;
-	height: 4.15vw;
+	width: 46.48vw;
+	height: 8.3vw;
 	background: linear-gradient(to right, #8DA7FD, #6587FF);
 	margin: 4vw auto;
 	margin-bottom: 1vw;
-	border-radius: 0.5vw;
+	border-radius: 1.5vw;
 }
 #div-discord:hover{
 	background: linear-gradient(to right, #7C93DF, #5977E1);
@@ -159,8 +159,8 @@ ul{
 	transition: box-shadow 0.25s;
 }
 #div-discord img{
-	height: 3.735vw;
-	padding: 0.125vw 0 0.125vw 1vw;
+	height: 7.47vw;
+	padding: 0.5vw 0 0.125vw 2vw;
 	display: inline-block;
 	pointer-events: none;
 	user-select: none;
@@ -170,32 +170,32 @@ ul{
 	font-weight: bold;
 	color: white;
 	display: inline-block;
-	padding: 1vw 1vw;
+	padding: 2.25vw 3vw 2.25vw 0vw;
 	margin: 0;
-	font-size: 1.75vw;
+	font-size: 3.5vw;
 }
 #section-second{
-	height: 55vw;
+	height: 125vw;
 }
 .box-discord{
-	width: 49.5%;
+	width: 100%;
 	display: inline-block;
 	color: #2d2d2d;
 }
 .box-discord h1{
 	text-align: center;
-	font-size: 3.5vw;
+	font-size: 5vw;
 	padding: 7.5vw 2vw 0 0;
 }
 #div-you{
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	font-size: 1.75vw;
+	font-size: 3.75vw;
 	color: #8f8f8f;
 }
 .box-png{
-	width: 45%;
+	width: 100%;
 	display: inline-block;
 	pointer-events: none;
 	user-select: none;
@@ -204,8 +204,8 @@ ul{
 	height: 100%;
 }
 .box-png img{
-	width: 95%;
-	padding: 5vw 0;
+    width: 65%;
+    margin: 5vw 15.5vw;
 	pointer-events: none;
 }
 
@@ -231,7 +231,7 @@ ul{
 
 .bannerT {
   position: relative;
-  top: 4vw;
+  top: 3vw;
   height: 0;
 }
 .bannerT svg {
@@ -254,7 +254,7 @@ ul{
   width: 100%;
 }
 #section-void{
-	height: 12vw;
+	height: 12.5vw;
 }
 #Button_Body, #Button_Games, #Button_Discord, #Button_Cat, #Button_Gena, #Button_Peace{
 	cursor: pointer;
