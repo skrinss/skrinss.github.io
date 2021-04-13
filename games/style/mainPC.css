@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Facon; /* Гарнитура шрифта */
+    src: url(style/17779.ttf); /* Путь к файлу со шрифтом */
+}
 body, html{
 	margin: 0;
 	padding: 0;
