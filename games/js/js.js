@@ -28,13 +28,13 @@ function currentSlide(n) {
 
 function text(){
 	if(slideIndex==1){
+		document.getElementsByClassName("div-name")[0].innerHTML = "Brandch";
+		document.getElementsByClassName("div-info")[0].innerHTML = "Векторный гиперказуал в 2D для Android";
+	} else if(slideIndex==2){
 		document.getElementsByClassName("div-name")[0].innerHTML = "Gena the Run";
 		document.getElementsByClassName("div-info")[0].innerHTML = "Пиксельный платформер в 2D для Android";
-	} else if(slideIndex==2){
-		document.getElementsByClassName("div-name")[0].innerHTML = "Peace the Da";
-		document.getElementsByClassName("div-info")[0].innerHTML = "Векторный гиперказуал в 2D для Android";
 	} else if(slideIndex==3){
-		document.getElementsByClassName("div-name")[0].innerHTML = "Save the Cat";
+		document.getElementsByClassName("div-name")[0].innerHTML = "Peace the Da";
 		document.getElementsByClassName("div-info")[0].innerHTML = "Векторный платформер в 2D для Android";
 	}
 }
