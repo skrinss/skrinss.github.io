@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BESD Production</title>
+	<meta name="viewport" content="vidth=device-width", initial-scale=1>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" media="all" href="style/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="shortcut icon" href="style/img/icon.ico" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<div class="ContentBox">
+			<div class="row">
+				<div class="col-6">
+					<div>
+						<a href="index.html">
+							<img src="style/img/LOGO.png" alt="logo" id="Logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div>
+						<div id="ButtonSupport" class="ButtonHeader"   type="button" onclick="window.location.href = '';">
+							<div id="SupportContent">
+								<h4>
+									Связь
+								</h4>
+								<div id="RecordBoll" class="animBall">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<div id="textLoading">
+							<h1>Наши услуги </br><p><span id="typed"></span></p><!-- <b class="animOpacity">|</b> --></h1>
+						</div>
+						<div class="row" id="listWork">
+							<div class="col-0.5" id="stick">
+								 
+							</div>
+							<div>
+								<div id="list">
+									<h3>Создание <p>LandingPage</p></h3>
+									<h3>Разработка <p>ботов</p> под <p>Телеграм</p></h3>
+									<h3>Продажа <p>рекламы</p> в пабликах</h3>
+									<h3><p>Дизайн</p> для ваших проектов</h3>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div>
+								<div class="row">
+									<div class="col-6">
+										<div class="ButtonInfo" id="butPrice" type="button" onclick="scrollToElementPrice()">
+											<h4>
+												Узнать цены
+											</h4>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="ButtonInfo" id="butExample" type="button" onclick="scrollToElementExample()">
+											<h4>
+												Примеры работ
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div id="MainGif">
+						<img src="style/img/gifFirstFull.gif" alt="gif">
+					</div>
+				</div>
+			</div>
+			<div id="InfoSection">
+				<div class="row">
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">49</p>
+							</h1>
+							<b>
+								<p>Выполненных заказов</p>
+							</b>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">14</p>
+							</h1>
+							<b>
+								<p>Отзывов о работе</p>
+							</b>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">7</p>
+							</h1>
+							<b>
+								<p>Людей в команде</p>
+							</b>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="BoxInformation">
+							<h1>
+								<p class="NumberLoad">3</p><p>+</p>
+							</h1>
+							<b>
+								<p>Лет в индустрии</p>
+							</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section id="sectionPrice">
+		<div class="ContentBox">
+			<div id="mainTextBox" class="slideInDown wow">
+				<h1>
+					Что мы делаем?
+				</h1>
+				<h3>
+					Список предостовляемыми нами услугами.
+				</h3>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconDesign.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Дизайн
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Стоимость от <p>X RUB</p></br>
+								Срок изготовления <p>2-6 дней</p>
+							</b>
+						</div>
+						<div>
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond" id="butExample" type="button" onclick="scrollToElementExample()">
+								<h4>
+									Примеры
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconWeb.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Сайты
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Стоимость от <p>X RUB</p></br>
+								Срок изготовления <p>14-21 дней</p>
+							</b>
+						</div>
+						<div style="margin-bottom: 1vw;">
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond" id="buttonWeb" type="button" onclick="scrollToElementExampleWeb()">
+								<h4>
+									Примеры
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-1"></div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconAdvs.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Реклама
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Реклама в пабликах <p>Instagram</p></br>
+								Подробности <p>можно узнать</p>
+							</b>
+						</div>
+						<div>
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond">
+								<h4>
+									Подробнее
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-10" id="boxListWork" style="margin-bottom: 10vw;">
+					<div>
+						<div class="row slideInLeft wow" id="mainNameText">
+							<div class="col-4">
+								<div>
+									<img src="style/img/iconGame.png" alt="">
+								</div>
+							</div>
+							<div class="col-8">
+								<h1 id="nameWorking">
+									Боты
+								</h1>
+							</div>
+						</div>
+						<div class="slideInLeft wow" id="infoText">
+							<b>
+								Стоимость от <p>X RUB</p></br>
+								Срок изготовления <p>14-21 дней</p>
+							</b>
+						</div>
+						<div>
+							<div id="buttonFirstBuy" type="button" onclick="scrollToElementСommunication()">
+								<h4>
+									Заказать
+								</h4>
+							</div>
+							<div id="buttonSecond" id="buttonWeb" type="button" onclick="scrollToElementExampleWeb()">
+								<h4>
+									Примеры
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="sectionThird">
+		<div class="ContentBox">
+			<div>
+				<div id="mainNameSectionExample" class="slideInDown wow">
+					<h1 id="textSectionExample">
+						Что мы уже сделали?
+					</h1>
+					<h3>
+						Список предостовляемыми нами услугами.
+					</h3>
+				</div>
+				<div id="sectionFirstExample">
+					<div>
+						<div id="sectionDesign">
+							<img class="animRotate" src="style/img/Vector1.png" alt="">
+							<h1 class="slideInDown wow">
+								Дизайн
+							</h1>
+						</div>
+					</div>
+					<div>
+						<div>
+							<div class="row">
+								<div class="col-6">
+									<img style="float: right;" src="style/img/design/1.png" alt="" id="iconExampleDesign">
+								</div>
+								<div class="col-6">
+									<img style="float: left;" src="style/img/design/2.png" alt="" id="iconExampleDesign">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="sectionSecondExample">
+					<div id="sectionDesign">
+						<img class="animRotate" src="style/img/Vector1.png" alt="">
+						<h1 class="slideInDown wow" id="sectionExampleWeb">
+							Сайты
+						</h1>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-6">
+								<a href="#">
+									<img  style="float: right;" src="style/img/web/web1.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+							<div class="col-6">
+								<a href="#">
+									<img style="float: left;" src="style/img/web/web3.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="sectionThirdExample">
+					<div id="sectionDesign">
+						<img class="animRotate" src="style/img/Vector1.png" alt="">
+						<h1 class="slideInDown wow">
+							Боты
+						</h1>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-6">
+								<a href="http://t.me/BesdSupportBot">
+									<img  style="float: right;" src="style/img/bot/1.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+							<div class="col-6">
+								<a href="http://t.me/BesdSupportBot">
+									<img style="float: left;" src="style/img/bot/2.png" alt="" id="iconExampleDesign">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="ContentBox">
+			<div>
+				<div id="mainNameSectionTask" class="slideInDown wow">
+					<h1 id="textSectionTask" style="margin: 2vw 0 2vw 3vw;">
+						Какие мы ставим перед собой задачи
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10 textTaskBox">
+						<div class="textButtTaskFirst">
+							<p>Задача №1</p>
+						</div>
+						<div class="textButtTaskSecond">
+							Сроки
+						</div>
+						<h3 class="textTaskMain slideInLeft wow">
+							Интересно, что первый компьютер был размером с микроавтобус и весил почти тонну. В то время как сейчас это может быть маленький чип размером с булавку. И компьютерные технологии не стоят на месте, она быстро прогрессируют.
+						</h3>
+						<h1 class="textTaskNumber">
+							01
+						</h1>
+					</div>
+					<div class="col-1"></div>
+					<div class="col-1"></div>
+					<div class="col-10 textTaskBox">
+						<div class="textButtTaskFirst">
+							<p>Задача №2</p>
+						</div>
+						<div class="textButtTaskSecond">
+							Качевство
+						</div>
+						<h3 class="textTaskMain slideInLeft wow">
+							С другой стороны, перспективное планирование влечет за собой процесс внедрения и модернизации глубокомысленных рассуждений. И нет сомнений, что предприниматели в сети интернет объявлены нарушающими общечеловеческие нормы этики и морали.
+						</h3>
+						<h1 class="textTaskNumber">
+							02
+						</h1>
+						<img class="textTaskIcon" src="" alt="">
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-10 textTaskBox" style="height: -4vw; ">
+						<div class="textButtTaskFirst">
+							<p>Задача №3</p>
+						</div>
+						<div class="textButtTaskSecond">
+							Цена
+						</div>
+						<h3 class="textTaskMain slideInLeft wow">
+							Каждый из нас понимает очевидную вещь: экономическая повестка сегодняшнего дня выявляет срочную потребность инновационных методов управления процессами. Господа, глубокий уровень погружения.
+						</h3>
+						<h1 class="textTaskNumber">
+							03
+						</h1>
+						<img src="">
+						<img class="textTaskIcon" src="" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-1"></div>
+					<div class="col-10 textTaskBoxStock">
+						<div class="textButtTaskSecondStock">
+							Акции
+						</div>
+						<h3 class="textTaskMainStock slideInLeft wow">
+							Каждый из нас понимает очевидную вещь: экономическая повестка сегодняшнего дня выявляет срочную потребность инновационных методов управления процессами. Господа, глубокий уровень погружения.			
+						</h3>
+						<h1 class="textTaskNumberStock">
+							04
+						</h1>
+						<h1 class="slideInRight wow" id="whenTaskBottom">
+							Почему?
+						</h1>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section style="background-color: #4b5bd817;">
+		<div class="ContentBox">
+			<div id="scrolStock">
+				<div id="mainNameSectionTask" class="slideInDown wow">
+					<h1 id="textSectionTask">
+						Действует новогодняя </br>
+					</h1>
+					<div id="textThirdTask">
+						<p>МЕГА АКЦИЯ -30%</p>
+					</div>
+					<h3 style="float: right; padding-right: 20vw;">
+						на все услуги «BESD Production»!
+					</h3>
+				</div>
+				<div class="row">
+					<div class="col-12" style="margin: 2.5vw 0;">
+						<img class="animRotate" id="fireFinish" src="style/img/Vector1.png" alt="">
+						<h1 id="mainCommText">
+							<p>Сообщеите</p> менеджеру промкод - <p>#BESD2022</p>,<br> и вы получите скидку на любые услуги <p>-30%</p>.
+						</h1>
+						<div class="ButtonInfoFinish" type="button" onclick="window.location.href = '';">
+							<h4>
+								Заказать
+							</h4>
+						</div>
+					</div>
+
+					<div class="col-12" id="sectionTimer">
+						<div class="countdown">
+						  	<div class="time-section">
+						  		<span class="count" id="days"></span>
+						  		<span class="units">Дней</span>
+						  	</div>
+						  	<h1 style="position: absolute; left: 26.5%;top: -2%;">:</h1>
+						  	<div class="time-section">
+						  		<span class="count" id="hours"></span>
+						  		<span class="units">Часов</span>
+						  	</div>
+						  	<h1 style="position: absolute; right: 48%;top: -2%;">:</h1>
+						  	<div class="time-section">
+						  		<span class="count" id="minutes"></span>
+						  		<span class="units">Минут</span>
+						  	</div>
+						  	<h1 style="position: absolute; right: 27%;top: -2%;">:</h1>
+						  	<div class="time-section">
+						  		<span class="count" id="seconds"></span>
+						  		<span class="units">Секунд</span>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="ContentBox" id="communication">
+			<div class="row">
+				<div class="col-12">
+					<div id="MainGif">
+						<img src="style/img/gifFirstFull.gif" alt="gif">
+					</div>
+				</div>
+				<div class="col-12">
+					<div style="margin-left: 5vw;">
+						<h1 id="commText" style="margin: 0vw 0 12.5vw 0;">
+							Свяжитесь
+						</h1>
+						<h2 id="commText" style="margin:0; position: absolute; top: 10vw;">
+							<p>с нами</p>
+						</h2>
+					</div>
+					<div>
+						<div style="float: left; margin-left: 3vw; margin-top: 3vw;">
+							<a href="">
+								<div style="">
+									<div style="width: 15vw;">
+										<img src="style/img/iv.png" id="iconComm" alt="">
+									</div>
+									<div style="font-weight: bold; ">
+										<n style="font-size: 4vw; margin: 0.1vw;">Написать на VK</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div style="float: right; margin-right: 3vw; margin-top: 3vw;">
+							<a href="">
+								<div style="">
+									<div style="width: 15vw; display: inline-block;">
+										<img src="style/img/it.png" id="iconComm" alt="">
+									</div>
+									<div style="font-weight: bold; ">
+										<n style="font-size: 4vw; margin: 0.1vw; float: right; display: inline-block;">Написать на Telegram</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer style="margin-top: 7vw;">
+		<div class="ContentBox">
+			<div class="row">
+				<div class="col-6 footerText" style="text-align: left;">
+					2022 © <p>besd.besd</p>
+				</div>
+				<div class="col-6 footerText" style="text-align: right;">
+					Все права защищены.
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script src="./js/snap.svg-min.js"></script>
+	<script src="./js/main.js"></script>
+    <script src="./js/jquery.spincrement.min.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/time.js"></script>
+    <script src="./js/scrol.js"></script>
+    <script type="text/javascript">
+		window.isMobileOrTablet = function() {
+		var check = false;
+		(function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera);
+		return check;
+		}
+		function addaption(){
+			if (!isMobileOrTablet()) {
+				window.location = "../index.html";
+			}
+		}
+		addaption();
+		setInterval(addaption, 1000);
+	</script>
+
+</body>
+</html>

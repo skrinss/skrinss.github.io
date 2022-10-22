@@ -1,1 +1,0 @@
-# skrinss.github.io

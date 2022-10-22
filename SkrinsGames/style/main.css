@@ -1,0 +1,531 @@
+@font-face {
+    font-family: Facon; /* Гарнитура шрифта */
+    src: url(Facon.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Classic; /* Гарнитура шрифта */
+    src: url(AvanteBs.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Oswald; /* Гарнитура шрифта */
+    src: url(Oswald.ttf); /* Путь к файлу со шрифтом */
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+a{
+	color: #969696;
+	text-decoration: none;
+}
+ul{
+	color: #969696;
+}
+a:hover{
+	color: #c7c7c7;
+	text-decoration: none;
+}
+.div-container{
+	width: 70%;
+	margin: 0 auto;
+}
+.div-box-header{
+	width: 50%;
+	display: inline-block;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.div-logo-header{
+	margin: 0 auto;
+	width: 33%;
+	margin: 3.5vw 33%;
+}
+.div-games{
+	width: 12.5vw;
+	height: 1.5vw;
+	background-color: #adb8c4;
+	position: absolute;
+	left: 30vw;
+	top: 8vw;
+	border-radius: 0vw;
+}
+.div-games p{
+	margin: 0 0 0 3.5vw;
+	padding: 0.2vw 0.3vw;
+	color: white;
+	font-family: Arial;
+	font-size: 1vw;
+	font-weight: 550;
+	user-select: none;
+}
+.div-skrins{
+	background-color: white;
+	border-radius: 50%;
+	width: 6.5vw;
+	height: 6.5vw;
+	margin-right: 0; 
+	position: absolute;
+}
+.div-skrins p{
+	font-family: Facon;
+	text-align: center;
+	color: black;
+	font-size: 5vw;
+	margin: 0;
+	padding: 1.15vw 1.5vw 1vw 0.5vw;
+	user-select: none;
+}
+header{
+	background-color: #ff502f ;
+	height: 13vw;
+}
+#section-first{
+	background: white;
+	height: auto;
+}
+#div-container-name{
+	margin: 0 auto;
+	padding: 0 2vw 0 2vw;
+}
+#div-container-name h1{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	font-size: 3vw;
+	margin: 2vw 4vw 4vw 4vw;
+}
+#div-container-box{
+	width: 75%;
+	height: 25vw;
+	margin: 0 auto;
+	display: inline-block;
+}
+#div-container-information{
+	padding: 2vw 2vw 3vw 2vw;
+}
+#div-container-information h1{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	font-size: 1.75vw;
+}
+#div-void{
+	height: 100%;
+	width: 12.5%;
+	display: inline-block;
+}
+.div-row{
+    height: 5vw;
+    width: auto;
+	cursor: pointer;
+	 filter: invert(100%);
+}
+.prev:active{
+	filter: invert(1);
+}
+.next:active{
+	filter: invert(1);
+}
+.footer-div{
+	color: #969696;
+	width: 17.5%;
+	padding: 1.5vw 1vw;
+	color: white;
+	display: inline-block;
+	user-select: none;
+	font-size: 1vw;
+}
+.footer-divInfo{
+	width: 25%;
+	padding: 2vw 1vw;
+	text-align: center;
+}
+.footer-div p{
+	color: #aaaaaa;
+	margin: 0;
+}
+.footer-div ul{
+	margin: 0.25vw;
+}
+footer{
+	height: 8.25vw;
+	background-color: #2b2c2d;
+}
+ul{
+	padding: 0 1vw;
+}
+#div-discord{
+	width: 14vw;
+	height: 2.5vw;
+	background: linear-gradient(to right, #8DA7FD, #6587FF);
+	margin: 4vw auto;
+	margin-bottom: 1vw;
+	border-radius: 0.5vw;
+}
+#div-discord:hover{
+	background: linear-gradient(to right, #7C93DF, #5977E1);
+	box-shadow: 0 0 2.5vw 0.25vw #7C93DF;
+	transition: box-shadow 0.25s;
+}
+#div-discord img{
+	height: 2.25vw;
+	padding: 0.125vw 0 0.125vw 1vw;
+	display: inline-block;
+	pointer-events: none;
+	user-select: none;
+}
+#div-discord p{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	padding: 0 1vw 0 1vw;
+	font-size: 0.9vw;
+	margin: 0.75vw 0;
+}
+#section-second{
+	height: 33vw;
+	background-color: #2B2C2D;
+}
+.box-discord{
+	width: 49.5%;
+	display: inline-block;
+	color: #2d2d2d;
+}
+.box-discord h1{
+	text-align: center;
+	font-size: 2vw;
+	padding: 7.5vw 2vw 0 0;
+	color: white;
+}
+#div-you{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 1.15vw;
+	color: #8f8f8f;
+}
+.box-png{
+	width: 40%;
+	display: inline-block;
+	pointer-events: none;
+	user-select: none;
+}
+.box-png img{
+	width: 95%;
+	padding: 5vw 0;
+	pointer-events: none;
+	 filter: invert(100%);
+}
+
+.carousel-right {
+  padding: 10vw 1.5vw;
+}
+.carousel-left {
+  padding: 10vw 1.5vw;
+}
+
+.banner {
+  position: relative;
+  top: 0;
+  height: 0;
+}
+.banner svg {
+  position: relative;
+  left: 0;
+  top: +7vw;
+  width: 100%;
+}
+
+
+.bannerT {
+  position: relative;
+  top: 3vw;
+  height: 0;
+}
+.bannerT svg {
+  position: relative;
+  left: 0;
+  top: -7vw;
+  width: 100%;
+}
+
+
+.bannerS {
+  position: relative;
+  top: -10.5vw;
+  height: 0;
+}
+.bannerS svg {
+  position: relative;
+  left: 0;
+  top: -10vw;
+  width: 100%;
+}
+#section-void{
+	height: 12vw;
+}
+#Button_Body, #Button_Games, #Button_Discord, #Button_Cat, #Button_Gena, #Button_Peace{
+	cursor: pointer;
+}
+
+
+
+
+
+.section-game-div{
+	margin: 3vw 3vw;
+	width: 50%;
+	background-color: #dadada;
+	overflow: hidden;
+}
+
+.section-game-div-on{
+	height: auto;
+	border-radius:  5vw 2vw 2vw 2vw;
+}
+.section-game-div-off{
+	height: 10vw;
+	border-radius:  6vw 2vw 2vw 6vw;
+}
+.section-game-div-show-off{
+	display: none;
+}
+.section-game-div-show-on{
+	display: block;
+}
+
+
+.section-game-div #icon-game{
+	height: 10vw;
+	border-radius:50%;
+	display: inline-block;
+}
+#icon-game:hover{
+	cursor: pointer;
+}
+.section-game-div-text{
+	width: 70%;
+	float: right;
+	direction: inline-block;
+	text-align: center;
+}
+.section-game-div-text h1{
+	font-size: 2vw;
+	font-family: Oswald;
+	color: #3d3d3d;
+	margin: 1.25vw 0vw;
+	cursor: pointer;
+	user-select: none;
+}
+.section-game-div-text h2{
+	width: 75%;
+	margin: 0 auto;
+	font-size: 1.25vw;
+	font-family: Oswald;
+	color: #3d3d3d;
+}
+.section-discription-download{
+	width: 49%;
+	height: 3vw;
+	display: inline-block;
+	margin-bottom: 0.5vw;
+	float: left;
+}
+.section-discription-download div{
+	height: 100%;
+	width: 40%;
+	float: right;
+}
+.section-discription-download div img{
+	height: 100%;
+	padding:0;
+	margin: 0;
+	padding: 0.075vw;
+	float: left;
+}
+.section-description{
+	font-size: 1.25vw;
+	padding: 1vw 2vw;
+	font-family: Oswald;
+	color: #3d3d3d;
+	margin: 0;
+}
+#star{
+	padding: 0.5vw 0.3vw 0.5vw 0.5vw;
+	height: 70%;
+}
+.section-discription-download div h4{
+	font-size: 1.5vw;
+	font-family: Oswald;
+	color: #3d3d3d;
+	display: inline-block;
+	margin: 0;
+	padding: 0.5vw 1.75vw 0.5vw 0;
+    float: right;
+}
+.section-button-download{
+	width: 49%;
+	height: 3vw;
+	display: inline-block;
+	margin-bottom: 0.5vw;
+}
+.section-button-download div{
+	width: 75%;
+	float: right;
+	height: 2.75vw;
+	background-color: green;
+	margin: 0 2vw;
+	font-size: 1.35vw;
+	cursor: pointer;
+}
+.section-button-download-h1{
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	margin: 0.22vw 17.5%;
+}
+.section-game-div #game-first{
+	float: right;
+}
+#game-first{
+	float: right;
+}
+#game-third{
+	float: right;
+}
+
+.clearfix { display: block; }
+.clearfix:after { content: ""; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; margin: 0; padding: 0; }
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:0.5vw;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#ecedee
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0.vw;
+background-color:#2B2C2D;
+}
+
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:0.5vw;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 0.5vw;
+}
+
+
+/* Собственно сам слайдер */
+.slider{
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    margin-bottom: 1vw;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 90%;
+    margin: 0 5%;
+    height: auto;
+    border: none !important;
+    box-shadow: none !important;
+
+    
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 1vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 0.75vw;
+    width: 0.75vw;
+    margin: 0 0.2vw;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}

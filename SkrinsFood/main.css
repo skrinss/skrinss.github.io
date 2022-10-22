@@ -1,0 +1,494 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	color: white;
+}
+@font-face {
+	font-family: 'Reey'; 
+	src: url(/font/Reey-Regular.otf); 
+}
+header{
+	background: url(img/bg-header.png) no-repeat center top / cover;
+	padding: 4% 5%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.conainetBox{
+	width: 85%;
+	margin: 0 auto;
+}
+#divMenu{
+	float: right;
+	margin-right: 7.5%;
+	height: auto;
+}
+.menuBox{
+	display: inline-block;
+}
+.menuBox a{
+	transition: 0.5s background-color;
+	padding: 1.5vw 3vw;
+	background-color: rgba(44, 44, 48, 0);
+	height: 100%;
+	font-size: 1vw;
+	width: 100%;
+}
+
+.menuBox a:hover{
+	background-color: rgba(44, 44, 48, 0.7);
+}
+#menu{
+	font-weight: bold;
+	margin: 1.5vw;
+}
+.headerDiv{
+	width: 49%;
+	display: inline-block;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.middle{
+	float: middle;
+}
+#logoSite img{
+	width: 20%;
+	margin: 2.5% 0 2.5% 7.5%;
+}
+#logoText{
+	padding: 0 0 0 10%;
+	user-select: none;
+}
+#logoText h1{
+	font-family: Reey;
+	font-size: 5.5vw;
+}
+#foodOne{
+	transition: 0.5s margin;
+	margin: 6vw 0 0 0;
+	width: 95%;
+}
+#foodOne:hover{
+	margin: 8vw 0 0 0;
+	width: 95%;
+}
+#buttonReadDiv{
+	margin: 10% 0 0 0;
+}
+#buttonReadDiv a{
+	margin: 10% 35%;
+	color: #3d3d3d;
+	background-color: white;
+	padding: 2% 4%;
+	font-size: 1.75vw;
+	font-weight: bold;
+	border-radius: 2vw;
+}
+#buttonReadDiv a:hover{
+	color: white;
+	background-color: rgb(0,0,0,0);
+	border: solid 0.01vw white;
+}
+#descriptionMenu p{
+	font-size: 1.25vw;
+	padding: 3% 7.5%;
+}
+.boxFoodsList{
+	display: inline-block;
+	width: 27.5%;
+}
+.boxFoodsList img{
+	width: 100%;
+}
+.boxFoodsList h2{
+	font-size: 1.5vw;
+}
+.boxFoodsList h3{
+	font-size: 1vw;
+}
+#mainName h1{
+	font-family: Reey;
+	font-size: 5.5vw;
+	color: #2C2C30;
+	text-align: center;
+	padding: 0 0 0 0;
+	user-select: none;
+	margin: 10vw 0 3vw 0;
+}
+#mainName h3{
+	color: #66686b;
+	font-size: 1.25vw;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+#boxListFood{
+	padding: 5vw 17.5%;
+	color: #2C2C30;
+	text-align: center;
+}
+#divButtonShow{
+	padding-bottom: 3vw;
+}
+#divButtonShow a{
+	color: white;
+	background-color: #2C2C30;
+	padding: 1.5vw 3vw;
+	text-align: center;
+	border-radius: 2vw;
+	font-size: 1.25vw;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#divButtonShow a:hover{
+	background-color: #7c7c7e;
+}
+#divButtonShowDiv{
+	width: 22.4%;
+	margin: 3vw auto;
+}
+#sectionInformation{
+	background-color: #2C2C30;
+}
+#mainNameForInfo h1{
+	font-family: Reey;
+	font-size: 5vw;
+	text-align: center;
+	padding: 5vw;
+	margin: 0;
+	user-select: none;
+}
+#descpForInfo{
+	height: 10vw;
+}
+#dBoxFirst{
+	width: 49%;
+	float: left;
+	display: inline-block;
+}
+#dBoxFirst h4{
+	padding: 0 2vw 0 10vw;
+	font-size: 1vw;
+	font-weight: medium;
+}
+#dBoxSecond{
+	width: 49%;
+	float: right;
+	display: inline-block;
+}
+#dBoxSecond h4{
+	padding: 0 10vw 0 2vw;
+	font-size: 1vw;
+	font-weight: medium;
+}
+#buttonBigInfo{
+	padding: 5vw;
+	text-align: center;
+}
+#buttonBigInfo a{
+	margin: 0 auto;
+	background-color: white;
+	padding: 1vw 3vw;
+	color: #2C2C30;
+	font-weight: bold;
+	font-size: 1.75vw;
+	text-transform: uppercase;
+	border-radius: 2vw;
+}
+#buttonBigInfo a:hover{
+	color: white;
+	border: solid 0.01vw white;
+	background-color: rgb(0,0,0,0);
+}
+#containerFirst{
+	padding: 5vw 9vw 2vw 9vw;
+	height: 25vw;
+}
+#cFDivImg{
+	width: 39%;
+	float: left;
+}
+#cFDivImg img{
+	width: 100%;
+}
+#cFDivText{
+	width: 60%;
+	float: right;
+	color:#2C2C30; 
+}
+#cFDivTextInformation h1{
+	font-size: 3vw;
+	font-weight: bold;
+	margin: 3.5vw 0 0 0;
+}
+#cFDivTextInformation h3{
+	font-size: 1.5vw;
+	width: 75%;
+}
+#cFDivButton{
+	margin: 3vw 0 0 1vw;
+}
+#cFDivButton a{
+	background-color: #2C2C30;
+	padding: 1vw 2vw;
+	border-radius: 2vw;
+	font-size: 1vw;
+	font-weight: bold;
+}
+#cFDivButton a:hover{
+	background-color: #7c7c7e;
+}
+#containerSecond{
+	padding: 1vw  9vw 5vw 9vw;
+	height: 25vw;
+}
+#cSDivImg{
+	width: 39%;
+	float: right;
+}
+#cSDivImg img{
+	width: 100%;
+}
+#cSDivText{
+	width: 60%;
+	float: left;
+	color:#2C2C30; 
+}
+#cSDivDiv{
+	padding-left: 11vw;
+}
+#cSDivTextInformation h1{
+	font-size: 3vw;
+	font-weight: bold;
+	margin: 3.5vw 0 0 0;
+}
+#cSDivTextInformation h3{
+	font-size: 1.5vw;
+	width: 95%;
+}
+#cSDivButton{
+	margin: 3vw 0 0 1vw;
+}
+#cSDivButton a{
+	background-color: #2C2C30;
+	padding: 1vw 2vw;
+	border-radius: 2vw;
+	font-size: 1vw;
+	font-weight: bold;
+}
+
+#cSDivButton a:hover{
+	background-color: #7c7c7e;
+}
+#sectionPizza{
+	background: url(img/bg-header.png) no-repeat center top / cover;
+	height: 65vw;
+}
+#pizzaText{
+	font-family: Reey;
+	font-size: 3.5vw;
+	text-align: center;
+	padding-top: 10vw;
+	user-select: none;
+}
+#pizzaText img{
+	width: 20%;
+	position: absolute;
+	left: 0vw;
+}
+#divPizza h4{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.25vw;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 2vw;
+}
+#pizzaImg{
+	width: 65%;
+	margin: 0vw auto;
+	padding: 3.5vw 0 0 0;
+}
+#pizzaImg img{
+	width: 100%;
+}
+#divSectionThing{
+	text-align: center;
+	margin-top: 10vw;
+	color: #2C2C30;
+}
+#divSectionBox{
+	display: inline-block;
+	width: 32%;
+}
+#divSectionBox h1{
+	font-family: 'Reey';
+	font-size: 3vw;
+}
+#divSectionBox h2{
+	font-size: 1vw;
+	color: #333d42;
+}
+#sectionDivThing h1{
+	width: 65%;
+	font-size: 1.5vw;
+	margin: 0 auto;
+	padding: 15vw 0 2vw 0;
+}
+#sectionDivThing h2{
+	font-family: 'Reey';
+	font-size: 1.25vw;
+	margin-bottom: 8vw;
+}
+#leavesOne{
+	width: 25%;
+	position: absolute;
+	right: 2vw;
+}
+#sectionFindEat{
+	background-color: #27292c;
+	height: 55vw;
+	text-align: center;
+}
+#sectionFoodText{
+	text-align: center;
+}
+#sectionFoodText h1{
+	font-size: 4vw;
+	padding: 12vw 0 0 2vw;
+}
+#sectionFoodText h2{
+	width: 65%;
+	font-size: 1.5vw;
+	margin: 0 auto;
+	color: #cfcfcf;
+}
+#sectionFind{
+	margin: 7vw 0;
+}
+#sectionFindDiv{
+	background-color: white;
+	width: 75%;
+	border-radius: 2vw 2.1vw 2.1vw 2vw;
+	height: 4vw;
+	margin: 0 auto;
+}
+#sectionFindDiv input{
+	width: 74%;
+	float: left;
+	height: 3vw;
+	margin: 0.5vw 0.5vw 0.5vw 1.75vw;
+	font-size: 2vw;
+	color: #27292c;
+	border: none;
+	outline: none;
+}
+#sectionFindDivs{
+	height: 4vw;
+	float: right;
+	width: 18%;
+	border-radius: 2vw;
+}
+#sectionFindDivs a{
+	position: relative;
+	right: -0.5vw;
+	padding: 1.1vw 3vw 0.95vw 3vw;
+	border-radius: 2vw;
+	font-size: 1.75vw;
+	font-weight: bold;
+	background-color: #54524f;
+	float: right;
+}
+#sectionFindDivs a:hover{
+	background-color: #363533;
+}
+#leavesTwo{
+	width: 25%;
+	position: absolute;
+	left: 2vw;
+}
+#textHOne{
+	font-size: 2vw;
+}
+#textHTwo{
+	font-size: 1vw;
+}
+#textHTwo a{
+	color: #54524f;
+}
+#divSectionTwo{
+	width: 29%;
+	display: inline-block;
+}
+#divSectionOne{
+	width: 29%;
+	display: inline-block;
+	float: left;
+}
+#divSectionThree{
+	width: 29%;
+	display: inline-block;
+	float: right;
+}
+#leavesThree{
+	width: 20%;
+	position: absolute;
+	right: 0vw;
+}
+#sectionDivTes{
+	width: 49%;
+	display: inline-block;
+	float: right;
+}
+#sectionDivTez{
+	width: 49%;
+	display: inline-block;
+}
+#sectionDivTez h2{
+	font-size: 1vw;
+	width: 75%;
+}
+#sectionLearnening{
+	padding: 15vw 5vw 10vw 5vw; 
+}
+#sectionFooter{
+	height: auto;
+	color: #54524f;
+}
+
+
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:0.5vw;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#ecedee;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0.vw;
+background-color:#2C2C30;
+}
+
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:0.5vw;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 0.5vw;
+}
