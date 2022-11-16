@@ -289,11 +289,11 @@ ul{
 
 .section-game-div-on{
 	height: auto;
-	border-radius:  15vw 5vw 5vw 5vw;
+	border-radius:  15vw 0vw 0vw 0vw;
 }
 .section-game-div-off{
 	height: 30vw;
-	border-radius:  15vw 5vw 5vw 15vw;
+	border-radius:  15vw 0vw 0vw 15vw;
 }
 .section-game-div-show-off{
 	display: none;
