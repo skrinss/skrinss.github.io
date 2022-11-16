@@ -50,12 +50,11 @@ p{
 	margin: 10vw 10%;
 	padding: 0.4vw 1.5vw;
 	border: 1vw solid #4B5BD8;
-	border-radius: 9vw;
 }
 .ButtonInfo h4{
 	padding: 1vw;
 	margin-bottom: 0.1vw;
-	font-size: 6.7vw;
+	font-size: 3.7vw;
 	font-weight: bold;
 }
 .ButtonInfo:hover{
@@ -71,7 +70,6 @@ p{
 	margin: 2vw;
 	margin-top: 8vw;
 	border: 1vw solid #4B5BD8;
-	border-radius: 9vw;
 }
 .ButtonHeader:hover{
 	background-color: #4B5BD8;
@@ -154,8 +152,7 @@ p{
 #MainGif{
 }
 #MainGif img{
-	width: 80%;
-	margin: 0 9vw 5vw 9vw;
+	width: 100%;
 }
 .BoxInformation{
 	color: white;
@@ -279,7 +276,6 @@ p{
 }
 #boxListWork{
 	background-color: #bdc5ff;
-	border-radius: 5.75vw;
 	margin-bottom: 6vw;
 	box-shadow: 0 0.35vw 15px rgba(122,122,122,0.5);
 }
@@ -309,7 +305,6 @@ p{
 #buttonFirstBuy{
 	width: 45%;
 	background-color: #4b5bd8;
-	border-radius: 7vw;
 	text-align: center;
 	display: inline-block;
 	float: left;
@@ -331,7 +326,6 @@ p{
 #buttonSecond{
 	width: 50%;
 	border: 0.65vw solid #4b5bd8;
-	border-radius: 7vw;
 	text-align: center;
 	display: inline-block;
 	float: right;
@@ -544,7 +538,6 @@ p{
 	text-align: center;
 	padding: 0.3vw;
 	font-weight: bold;
-	border-radius: 7vw;
 	height: 10vw;
 	border: 0.75vw solid #4b5bd8;
 	width: 55%;
@@ -564,7 +557,6 @@ p{
 	text-align: center;
 	padding: 0.6vw;
 	font-weight: bold;
-	border-radius: 7vw;
 	background-color: #4b5bd8;
 	width: 40%; right: 0;
 	top: -1vw;
@@ -582,7 +574,6 @@ p{
 .textTaskBoxStock{
 	color: white;
 	background-color: #4b5bd8;
-	border-radius: 1vw;
 	margin: 3vw 0;
 	box-shadow: 0 0.35vw 15px rgba(122,122,122,0.4);
 }
@@ -602,7 +593,6 @@ p{
 	text-align: center;
 	padding: 0.6vw;
 	font-weight: bold;
-	border-radius: 7vw;
 	background-color: white;
 	width: 35%;
 	left: 0;
@@ -748,7 +738,6 @@ p{
     padding: 0 5vw;
     margin-bottom: 10vw;
     border: 1vw solid #4B5BD8;
-    border-radius: 7vw;
 }
 .ButtonInfoFinish h4{
 	margin-bottom: 0.1vw;
