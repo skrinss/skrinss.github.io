@@ -184,7 +184,7 @@ p{
 	height: 23vw;
 }
 #InfoSection{
-	padding-bottom: 10vw;
+	padding-bottom: 18vw;
 }
 .blockInfoSecond{
 	color: white;
@@ -265,7 +265,7 @@ p{
 	display: inline-block;
 	font-size: 10.5vw;
 	font-weight: bold;
-	padding-top: 0.5vw;
+	padding-top: 10.5vw;
 	padding-right: 5vw;
 }
 #mainTextBox h3{
@@ -364,7 +364,7 @@ p{
 	padding-bottom: 10vw;
 }
 #textSectionExample{
-	margin-top: 0.5vw;
+	margin-top: 10.5vw;
 	display: inline-block;
 	font-size: 15vw;
 	font-weight: bold;
@@ -430,7 +430,7 @@ p{
 	-webkit-text-fill-color: transparent;
 }
 #sectionThirdExample{
-	margin-bottom: 5vw;
+	margin-bottom: 20vw;
 	padding-bottom: 12.5vw;
 }
 
@@ -486,7 +486,7 @@ p{
 	padding: 0vw 0 6vw 0;
 }
 #textSectionTask{
-	margin: 0.75vw 10vw;
+	margin: 8.75vw 10vw 0.75vw 10vw;
 	display: inline-block;
 	font-size: 12vw;
 	font-weight: bold;
@@ -622,7 +622,7 @@ p{
 #whenTaskBottom{
 	color: rgba(0,0,0,0.2); 
 	position: absolute;
-	bottom: -22vw;
+	bottom: -18vw;
 	right: -5vw;
 	padding: 0 0vw 0vw 0;
 	font-weight: bold;
@@ -648,6 +648,7 @@ p{
 	top: 12.5%;
 	color: white;
 	font-size: 17.5vw;
+	opacity: 0;
 }
 .time-section {
 	display: flex;
@@ -670,7 +671,7 @@ p{
 }
 
 .units {
-	font-size: 5.5vw;
+	font-size: 3.5vw;
 	padding: 0 0 1vw 0;
 	position: absolute;
 	top: 20vw;
