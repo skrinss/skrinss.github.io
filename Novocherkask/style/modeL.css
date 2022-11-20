@@ -1,0 +1,150 @@
+html, body{
+	color: #202020;
+}
+header{
+	background: url(../img/bg-header-f1.png) repeat-x top / cover;
+}
+#header-right{
+	color: white;
+}
+#section-menu{
+	background-color: white;
+}
+#button-mode img{
+	filter: invert(0);
+}
+#newspaper-img{
+	filter: invert(0);
+}
+#news-button-continuation:hover{
+	background-color: #74ADCA;
+}
+#news-button-continuation:hover h1{
+	color: white;
+}
+.post-shadow:hover{
+	background-color: rgba(27,74,161,0.6);
+}
+#hotbar{
+	background-color: #EB5E28;
+}
+#hotbar-right{
+	background-color: rgba(0,0,0,0.4);
+}
+#menu-li{
+	color: #6A7577;
+}
+#menu-li:hover{
+	color: #EB5E28;
+}
+#menu-li div{
+	background-color: #6A7577;
+}
+#menu-li:hover div{
+	background-color: #EB5E28;
+}
+#button-mode{
+	background-color: #2D93C5;
+}
+#button-mode:hover{
+	background-color: #267DA9;
+}
+.hotbar-select{
+	background-color: rgba(0,0,0,0.2);
+}
+#section-news{
+	background-color: white;
+}
+#main-news-heading{
+	color: #1E2427;
+}
+#side-news-text{
+	color: #545E69;
+}
+#news-button-continuation{
+	color: #74ADCA;
+}
+#news-button-continuation h1{
+	color: #74adca;
+}
+#section-info-city{
+	background: url(../img/bg-header5.png) no-repeat center top / cover;
+}
+#main-welcome-heading div{
+	color: white;
+}
+#div-left-name{
+	color: white;
+}
+#section-events{
+	background-color: white;
+}
+#doc-bg{
+	background: url(../img/bg-header3.png) no-repeat center top / cover;
+}
+#box-docs{
+	background-color: white;
+}
+#newspaper-img{
+	opacity: 0.135;
+}
+#section-documents{
+	background-color: white;
+}
+#info-mayor img{
+	filter: invert(1);
+}
+#big-text-right{
+	color: white;
+}
+#section-number{
+	background-color: #bc4e25;
+}
+.list-documents-box{
+	background-color: white;
+}
+.point-name{
+	color: #EB5E28;
+}
+.point-description{
+	color: #545E69;
+}
+.point-forthetime{
+	color: #2D93C5;
+}
+#main-events-heading{
+	color: rgba(0,0,0,0.25);
+}
+.div-internal{
+	color: white;
+}
+footer{
+	background: url(../img/bg-header4.png) no-repeat center top / cover;
+}
+#section-void{
+	background-color: white;
+}
+#div-right-footer h1{
+	color: white;
+}
+#div-right-footer h2{
+	color: #b9b9b9;
+}
+#div-right-footer h3{
+	color: #868BA3;
+}
+#div-right-footer h3 a{
+	color: white;
+}
+.box-footer-info{
+	color: white;
+}
+.point-footer-info{
+	color: #B8B4B7;
+}
+#map-maim-text{
+	color: #1E2427;
+}
+#map-descrition{
+	color: #545E69;
+}
