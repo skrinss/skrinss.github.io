@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 let mobile = false;
 let height = false;
 let navOffset = $("#section-menu").offset().top;
@@ -41,6 +41,7 @@ let navOffset = $("#section-menu").offset().top;
 	addaption();
 
 	function menu_select(){
+		console.log(mobile);
 		if (mobile) {
 			if (height){
 				$("#section-menu").removeClass("men-on");
@@ -64,6 +65,3 @@ let navOffset = $("#section-menu").offset().top;
 
 	addaption();
 	setInterval(addaption, 500);
-});
-
-
