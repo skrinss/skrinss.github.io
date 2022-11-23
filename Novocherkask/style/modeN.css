@@ -1,0 +1,164 @@
+html, body{
+	background-color: #0e0e0e;
+	color: #202020;
+}
+header{
+	background: url(../img/bg-header-f2.png) repeat-x top / cover;
+}
+#header-right{
+	color: white;
+}
+#section-menu{
+	background-color: #0e0e0e;
+}
+#button-mode img{
+	filter: invert(1);
+}
+#newspaper-img{
+	filter: invert(1);
+}
+#news-button-continuation:hover{
+	background-color: #74ADCA;
+}
+#news-button-continuation:hover h1{
+	color: white;
+}
+#news-button-continuation-s:hover{
+	background-color: #74ADCA;
+}
+#news-button-continuation-s:hover h1{
+	color: white;
+}
+.post-shadow:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+#hotbar{
+	background-color: #953a1763;
+}
+#hotbar-right{
+	background-color: rgba(0,0,0,0.4);
+}
+#menu-li{
+	color: white;
+}
+#menu-li:hover{
+	color: #2d93c5;
+}
+#menu-li div{
+	background-color: #6A7577;
+}
+#menu-li:hover div{
+	background-color: #2d93c5;
+}
+#button-mode{
+	background-color: #2D93C5;
+}
+#button-mode:hover{
+	background-color: #267DA9;
+}
+.hotbar-select{
+	background-color: rgba(0,0,0,0.2);
+}
+#section-news{
+	background-color: #0e0e0e;
+}
+#main-news-heading{
+	color: white;
+}
+#side-news-text{
+	color: #b9b9b9;
+}
+#news-button-continuation{
+	color: #74ADCA;
+}
+#news-button-continuation h1{
+	color: #74adca;
+}
+#news-button-continuation-s{
+	color: #74ADCA;
+}
+#news-button-continuation-s h1{
+	color: #74adca;
+}
+#section-info-city{
+	background: url(../img/bg-header6.png) no-repeat center top / cover;
+}
+#main-welcome-heading div{
+	color: white;
+}
+#div-left-name{
+	color: white;
+}
+#section-events{
+	background-color: #0e0e0e;
+}
+#doc-bg{
+	background: url(../img/bg-header8.png) no-repeat center top / cover;
+}
+#box-docs{
+	background-color: #0e0e0e;
+}
+#newspaper-img{
+	opacity: 0.4;
+}
+#section-documents{
+	background-color: #0e0e0e;
+}
+#info-mayor img{
+	filter: invert(1);
+}
+#big-text-right{
+	color: white;
+}
+#section-number{
+	background-color: #262626;
+}
+.list-documents-box{
+	background-color: #0e0e0e;
+}
+.point-name{
+	color: #b64419;
+}
+.point-description{
+	color: white;
+}
+.point-forthetime{
+	color: #2D93C5;
+}
+#main-events-heading{
+	color: rgba(255,255,255,0.5);
+	z-index: 0;
+}
+.div-internal{
+	color: white;
+}
+footer{
+	background: url(../img/bg-header7.png) no-repeat center top / cover;
+}
+#section-void{
+	background-color: #0e0e0e;
+}
+#div-right-footer h1{
+	color: white;
+}
+#div-right-footer h2{
+	color: #b9b9b9;
+}
+#div-right-footer h3{
+	color: #868BA3;
+}
+#div-right-footer h3 a{
+	color: white;
+}
+.box-footer-info{
+	color: white;
+}
+.point-footer-info{
+	color: #B8B4B7;
+}
+#map-maim-text{
+	color: white;
+}
+#map-descrition{
+	color: #b9b9b9;
+}
