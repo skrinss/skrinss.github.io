@@ -58,33 +58,6 @@ let navOffset = $("#section-menu").offset().top;
 		}
 	}
 
-	document.getElementById('butFirst').addEventListener('click', scrollToElementFirst);
-	function scrollToElementFirst(e) {
-		element = document.getElementById("language-div")
-		element.scrollIntoView(true);
-	}
-	document.getElementById('butSecond').addEventListener('click', scrollToElementSecond);
-	function scrollToElementSecond(e) {
-		element = document.getElementById("section-documents")
-		element.scrollIntoView(true);
-	}
-	document.getElementById('butThird').addEventListener('click', scrollToElementThird);
-	function scrollToElementThird(e) {
-		element = document.getElementById("section-void")
-		element.scrollIntoView(true);
-	}
-	document.getElementById('butFourth').addEventListener('click', scrollToElementFourth);
-	function scrollToElementFourth(e) {
-		element = document.getElementById("main-welcome-heading")
-		element.scrollIntoView(true);
-	}
-	document.getElementById('butFive').addEventListener('click', scrollToElementFive);
-	function scrollToElementFive(e) {
-		element = document.getElementById("div-right-footer")
-		element.scrollIntoView(true);
-	}
-
-
 
 
 
