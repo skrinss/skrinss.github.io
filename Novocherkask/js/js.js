@@ -38,7 +38,7 @@ let navOffset = $("#section-menu").offset().top;
 		}
 	}
 
-
+	addaption();
 	function menu_select(){
 		console.log(mobile);
 		if (mobile) {
@@ -86,6 +86,6 @@ let navOffset = $("#section-menu").offset().top;
 
 
 
-	addaption();
+
 
 
