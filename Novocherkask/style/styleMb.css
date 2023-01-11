@@ -448,9 +448,29 @@ a{
 	margin: 10vw auto;
 	font-size: 6vw;
 }
-#text-info p{
+#text-info div{
 	max-width: 100%;
 	min-width: 100%;
+}
+#text-info h1{
+	width: 100%;
+	font-size: 12vw;
+	text-align: center;
+}
+#text-info h2{
+	width: 100%;
+	padding-top: 1vw;
+	text-align: center;
+	font-size: 7.5vw;
+}
+#text-info b{
+	width: 100%;
+	color: #3E3E3E;
+	font-size: 7vw;
+}
+#text-info p{
+	width: 100%;
+	font-size: 6vw;
 }
 .list-documents-box{
 	padding: 15% 10% 5% 10%;
