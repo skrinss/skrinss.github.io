@@ -25,6 +25,7 @@ header{
 }
 
 
+
 @media (max-width: 1200px) {
     .banner-wrap{
         animation-name: banner-animate-mobile;
@@ -442,8 +443,28 @@ a{
 	margin: 6vw 0;
 	font-size: 1vw;
 }
-#socialogia{
+#text-info div{
 	width: 100%;
+}
+#text-info p{
+	width: 100%;
+	font-size: 1vw;
+}
+#text-info h2{
+	width: 100%;
+	padding-top: 1vw;
+	text-align: center;
+	font-size: 1.45vw;
+}
+#text-info b{
+	width: 100%;
+	color: #3E3E3E;
+	font-size: 1.2vw;
+}
+#text-info h1{
+	width: 100%;
+	font-size: 3vw;
+	text-align: center;
 }
 .box-info{
 	float: left;
