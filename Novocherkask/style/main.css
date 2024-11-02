@@ -32,9 +32,9 @@ td{
 	margin: 0;
 }
 header{
-	/*	background-size: 100% 50%;
-		background: url(../img/bg-header.png) no-repeat top;
-	background-attachment: fixed;*/
+	background-size: 100% 50%;
+	background: url(../img/bg-header.png) no-repeat top;
+	background-attachment: fixed;
 	width: 100%;
 	min-height: 25vw;
 	position: relative;
