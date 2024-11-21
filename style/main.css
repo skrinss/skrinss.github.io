@@ -75,7 +75,7 @@ body{
 }
 #menu{
 	width: 100%;
-	height: 61vh;
+	height: 50vh;
 }
 #hello{
 	float: right;
@@ -84,20 +84,20 @@ body{
 }
 #hello h1{
 	color: white;
-	font-size: 5vw;
+	font-size: 4vw;
 }
 #hello h2{
 	-webkit-text-stroke: 0.1vw white;
 	color: #161313;
-	font-size: 4vw;
+	font-size: 5vw;
 }
 ul{
 /*	justify-content: space-around;*/
 	float: right;
-	width: 60%;
+	width: 40%;
 	text-align: center;
 	list-style: none;
-	margin: 15% 20%;
+	margin: 15% 30%;
 }
 li{
 	margin: 10% 0;
@@ -105,7 +105,7 @@ li{
 }
 ul a{
 	text-decoration: none;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: white;
 	transition: 0.5s;
 }
@@ -240,23 +240,22 @@ ul li a:hover:before{
 	padding: 10% 2% 0 2%;
 }
 .conteiner_example{
-	height: 75vw;
+	height: 180vw;
 	width: 90%;
 	margin: 0 auto;
-	display: flex;
-	gap: 0.5rem;
 }
 .conteiner_example div{
-	flex: 1;
 	border-radius: 1vw;
+	height: 50vw;
 	transition: 1s;
+	margin-bottom: 8vw;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	opacity: 0.25;
+	opacity: 1;
 }
 .conteiner_example div img{
-	opacity: 0;
+	opacity: 1;
 	width: 100%;
 	height: 100%;
 	transition: 1s;
@@ -266,10 +265,11 @@ ul li a:hover:before{
 	opacity: 1;
 }
 .conteiner_example div h1{
-	opacity: 0;
+	user-select: none;
+	opacity: 1;
 	color: white;
+	font-size: 7vw;
 	position: relative;
-	font-size: 1vw;
 	text-align: center;
 	bottom: 20vw;
 	transition: 0.75s;
@@ -279,7 +279,6 @@ ul li a:hover:before{
 	font-size: 7vw;
 }
 .conteiner_example div:hover{
-	flex: 5;
 	cursor: pointer;
 	opacity: 1;
 }
@@ -686,6 +685,7 @@ ul li a:hover:before{
 	opacity: 1;
 }
 .conteiner_example div h1{
+	user-select: none;
 	opacity: 0;
 	color: white;
 	position: relative;
@@ -926,7 +926,7 @@ body{
 }
 #menu{
 	width: 100%;
-	height: 65vh;
+	height: 60vh;
 }
 #hello{
 	float: right;
@@ -1086,23 +1086,22 @@ ul li a:hover:before{
 	padding: 10% 2% 0 2%;
 }
 .conteiner_example{
-	height: 75vw;
+	height: 180vw;
 	width: 90%;
 	margin: 0 auto;
-	display: flex;
-	gap: 0.5rem;
 }
 .conteiner_example div{
-	flex: 1;
 	border-radius: 1vw;
+	height: 50vw;
 	transition: 1s;
+	margin-bottom: 8vw;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	opacity: 0.25;
+	opacity: 1;
 }
 .conteiner_example div img{
-	opacity: 0;
+	opacity: 1;
 	width: 100%;
 	height: 100%;
 	transition: 1s;
@@ -1112,10 +1111,11 @@ ul li a:hover:before{
 	opacity: 1;
 }
 .conteiner_example div h1{
-	opacity: 0;
+	user-select: none;
+	opacity: 1;
 	color: white;
+	font-size: 7vw;
 	position: relative;
-	font-size: 1vw;
 	text-align: center;
 	bottom: 20vw;
 	transition: 0.75s;
@@ -1125,7 +1125,6 @@ ul li a:hover:before{
 	font-size: 7vw;
 }
 .conteiner_example div:hover{
-	flex: 5;
 	cursor: pointer;
 	opacity: 1;
 }
