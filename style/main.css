@@ -4,7 +4,7 @@
 	font-family: sans-serif;
 }
 header{
-	height: 100vh;
+	height: 52vw;
 }
 #left_block{
 	width: 35%;
@@ -62,7 +62,7 @@ header{
 }
 #menu{
 	width: 100%;
-	height: 15vh;
+	height: 15vw;
 }
 #hello{
 	float: right;
@@ -199,6 +199,7 @@ ul li a:hover:before{
 }
 #div_work_web{
 	height: auto;
+	padding-bottom: 5vw;
 }
 #div_work_web_text{
 	color: white;
@@ -275,11 +276,11 @@ ul li a:hover:before{
 	opacity: 1;
 }
 #div_video{
-	height: 50vh;
+	height: 34vw;
 }
 #div_video div{
 	width: 65%;
-	height: 30vh;
+	height: 20vw;
 	margin: 0 auto;
 }
 #div_video video{
@@ -337,11 +338,11 @@ ul li a:hover:before{
     }
 }
 #void{
-	height: 5vh;
+	height: 5vw;
 	width: 100%;
 }
 #section_url{
-	height: 15vh;
+	height: 7vw;
 	background: black;
 }
 #div_url{
@@ -350,7 +351,7 @@ ul li a:hover:before{
 	margin: 0 auto;
 }
 #div_url div{
-	height: 10vh;
+	height: 7vw;
 	cursor: pointer;
 }
 #div_url div:hover h1{
@@ -378,12 +379,12 @@ ul li a:hover:before{
 	font-size: 2vw;
 }
 #footer{
-	height: 75vh;
+	height: 45vw;
 	pointer-events: none;
 }
 footer{
 	background-color: white;
-	height: 75vh;
+	height: 45vw;
 	width: 100%;
 	z-index: -5;
 	position: fixed;
@@ -424,11 +425,14 @@ footer{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 #logo img{
 	width: 100%;
 	padding: 5% 0 50% 0;
 	filter: grayscale(100%) brightness(0);
+}
+header{
+	height: 100vh;
 }
 #ball_first{
 	float: right;
@@ -531,6 +535,10 @@ ul a{
 	float: left;
 	margin: 0 auto;
 }
+#div_work_web{
+	height: auto;
+	padding-bottom: 10vw;
+}
 #div_work_web_text{
 	color: white;
 	text-align: center;
@@ -547,7 +555,7 @@ ul a{
 	padding: 10% 2% 0 2%;
 }
 .conteiner_example{
-	height: 220vw;
+	height: 230vw;
 	width: 90%;
 	margin: 0 auto;
 	display: block;
@@ -596,16 +604,19 @@ ul a{
 	cursor: pointer;
 	opacity: 1;
 }
+#div_video{
+	height: 110vw;
+}
 #div_video div{
 	width: 90%;
-	height: 30vh;
+	height: 60vw;
 	margin: 0 auto;
 }
 #div_video h1{
 	width: 90%;
 	z-index: 0;
 	position: relative;
-	font-size: 9vw;
+	font-size: 8vw;
 	color: black;
 	left: 5vw;
 	bottom: -27.25vw;
@@ -638,13 +649,17 @@ ul a{
 	animation-name: blick;
 }
 #section_url{
-	height: 10vh;
+	height: 20vw;
 	background: black;
 }
 #div_url{
 	width: 75%;
 	height: 100%;
 	margin: 0 auto;
+}
+#div_url div{
+	height: 16vw;
+	cursor: pointer;
 }
 #div_url div:hover img{
 	width: 19%;
@@ -668,12 +683,12 @@ ul a{
 	font-size: 5.25vw;
 }
 #footer{
-	height: 38vh;
+	height: 80vw;
 	pointer-events: none;
 }
 footer{
 	background-color: white;
-	height: 36vh;
+	height: 75vw;
 	width: 100%;
 	z-index: -5;
 	position: fixed;
