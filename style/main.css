@@ -1,0 +1,715 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	height: 52vw;
+}
+#left_block{
+	width: 35%;
+	height: 100%;
+	background-color: white;
+	display: inline-block;
+}
+#right_block{
+	width: 65%;
+	height: 100%;
+	background-color: #161313;
+	display: inline-block;
+	float: right;
+}
+#logo{
+	width: 100%;
+}
+#logo img{
+	width: 25%;
+	padding: 5% 0 0 10%;
+	filter: grayscale(100%) brightness(0);
+}
+#image img{
+	width: 51%;
+	float: right;
+	position: relative;
+	top: -3.5%;
+	right: 14%;
+	pointer-events: none;
+}
+#ball_first{
+	float: right;
+	position: relative;
+	left: 30%;
+	width: 35vw;
+	height: 35vw;
+	border-radius: 50%;
+	background-color: #161313;
+}
+#ball_second{
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	background-color: white;
+	margin: 5%;
+}
+#ball_third{
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	background-color: #161313;
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
+#menu{
+	width: 100%;
+	height: 15vw;
+}
+#hello{
+	float: right;
+	text-align: right;
+	margin: 20% 10% 20% 10%;
+}
+#hello h1{
+	color: white;
+	font-size: 3.75vw;
+}
+#hello h2{
+	-webkit-text-stroke: 0.1vw white;
+	color: #161313;
+	font-size: 4.5vw;
+}
+ul{
+	display: flex;
+	float: right;
+	list-style: none;
+	margin: 5% 40% 0 20%;
+}
+li{
+	margin-right: 25%;
+	transition: 0.5s;
+}
+ul a{
+	text-decoration: none;
+	font-size: 1vw;
+	color: white;
+	transition: 0.5s;
+}
+ul:hover li a{
+	transform: scale(1.5);
+	opacity: 0.2;
+	filter: blur(0.3vw);
+}
+ul li a:hover{
+	transform: scale(2);
+	opacity: 1;
+	color: #161313;
+	filter: blur(0);
+}
+ul li a:before{
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	background-color: white;
+	transition: 0.5s;
+	transform-origin: right;
+	transform: scaleX(0);
+	z-index: -1;
+}
+ul li a:hover:before{
+	transition: transform 0.5s;
+	transform-origin: left;
+	transform: scaleX(1);
+}
+#skills_content{
+	margin: 0 20%;
+	padding: 5% 0 2% 0;
+	text-align: center;
+}
+#skills_content h1{
+	font-size: 3vw;
+	color: #161313;
+	padding: 0.5% 0 1% 0;
+}
+#skills_content h2{
+	font-size: 0.95vw;
+	color: #161313;
+	font-weight: normal;
+}
+#skills_content h3{
+	font-size: 0.85vw;
+	color: grey;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: normal;
+}
+#skills_content h4{
+	font-weight: normal;
+	font-size: 0.95vw;
+	color: #161313;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+#section_skills{
+	height: auto;
+	background-color: white;
+}
+#skills_logo{
+	padding: 7% 15% 0 15%;
+	height: 30vw;
+}
+#skills_logo_block_first{
+	height: 50%;
+}
+#skills_logo_block_second{
+	height: 50%;
+	width: 55%;
+	margin: 0 auto;
+}
+#skills_logo_block_first div{
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin: 0 auto;
+}
+#skills_logo_block_second div{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin: 0 auto;
+}
+#skills_logo img{
+	height: 65%;
+	margin: 0 auto;
+	transition: filter 0.5s;
+	filter: grayscale(100%);
+	border-image: fill 0 liner-gradient(#0003 #000);
+}
+#skills_logo img:hover{
+	filter: grayscale(0%);
+}
+#section_work{
+	height: auto;
+	background-color: black;
+}
+#div_work_web{
+	height: auto;
+	padding-bottom: 5vw;
+}
+#div_work_web_text{
+	color: white;
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	padding: 5% 0;
+}
+#div_work_web_text h1{
+	font-size: 3vw;
+}
+#div_work_web_text h2{
+	font-size: 1vw;
+	font-weight: normal;
+	padding: 1% 10% 0 10%;
+}
+.conteiner_example{
+	height: 33vw;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	gap: 5rem;
+}
+.conteiner_example div{
+	flex: 1;
+	border-radius: 1vw;
+	transition: 1s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	opacity: 1;
+}
+.conteiner_example div video{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	object-fit: cover;
+	user-select: none;
+	transition: 0.3s;
+}
+.conteiner_example div video:hover{
+	opacity: 1;
+}
+.conteiner_example div img{
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	position: relative;
+	top: 0.1vw;
+	border-radius: 1vw;
+	pointer-events: none;
+}
+.conteiner_example div:hover img{
+	opacity: 1;
+}
+.conteiner_example div h1{
+	user-select: none;
+	opacity: 0;
+	color: white;
+	position: relative;
+	font-size: 1vw;
+	text-align: center;
+	bottom: 4vw;
+	transition: 0.75s;
+}
+.conteiner_example div:hover h1{
+	opacity: 1;
+	font-size: 2vw;
+}
+.conteiner_example div:hover{
+	flex: 4;
+	cursor: pointer;
+	opacity: 1;
+}
+#div_video{
+	height: 34vw;
+}
+#div_video div{
+	width: 65%;
+	height: 20vw;
+	margin: 0 auto;
+}
+#div_video video{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#div_video h1{
+	width: 70%;
+	z-index: 0;
+	position: relative;
+	font-size: 6vw;
+	color: black;
+	left: 16vw;
+	bottom: -6.25vw;
+	-webkit-text-stroke: 0.035vw white;
+	user-select: none;
+}
+#div_video h2{
+	width: 50%;
+	z-index: 2;
+	position: relative;
+	font-size: 4vw;
+	color: white;
+	left: 20vw;
+	bottom: -7vw;
+	text-shadow: 0.5vw 0.5vw 0.5vw black;
+	user-select: none;
+}
+#div_video h3{
+	width: 20%;
+	z-index: 2;
+	position: relative;
+	font-size: 6vw;
+	color: white;
+	left: 60vw;
+	bottom: 8vw;
+	user-select: none;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-name: blick;
+}
+@keyframes blick {
+    from {
+		text-shadow: 0 0 0 white;
+    }
+    25% {
+		text-shadow: 0vw 0vw 1vw white;
+    }
+    to {
+		text-shadow: 0 0 0 white;
+    }
+}
+#void{
+	height: 5vw;
+	width: 100%;
+}
+#section_url{
+	height: 7vw;
+	background: black;
+}
+#div_url{
+	width: 30%;
+	height: 100%;
+	margin: 0 auto;
+}
+#div_url div{
+	height: 7vw;
+	cursor: pointer;
+}
+#div_url div:hover h1{
+	color: grey;
+}
+#div_url div:hover img{
+	width: 15%;
+	position: relative;
+	top: 1vw;
+	left: 4vw;
+}
+#div_url img{
+	z-index: 1;
+	transition: 0.25s;
+	width: 10%;
+	position: relative;
+	top: 1.6vw;
+	left: 4.75vw;
+}
+#div_url h1{
+	float: right;
+	position: relative;
+	top: 2vw;
+	color: white;
+	font-size: 2vw;
+}
+#footer{
+	height: 45vw;
+	pointer-events: none;
+}
+footer{
+	background-color: white;
+	height: 45vw;
+	width: 100%;
+	z-index: -5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+#div_footer{
+	width: 90%;
+	padding: 7% 0;
+	margin: 0 auto;
+	text-align: center;
+}
+#div_footer h1{
+	font-size: 4vw;
+}
+#div_footer h2{
+	font-size: 1.5vw;
+	padding: 2% 0 0 0;
+	font-weight: normal;
+}
+#div_footer h3{
+	font-size: 1vw;
+	font-weight: normal;
+}
+#div_footer h4{
+	position: relative;
+	bottom: 4vw;
+	font-size: 30vw;
+	color: rgba(0, 0, 0, 0.15);
+	font-family: fantasy;
+	font-weight: 1000;
+	padding: 0 0;
+	font-weight: normal;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+#logo img{
+	width: 100%;
+	padding: 5% 0 50% 0;
+	filter: grayscale(100%) brightness(0);
+}
+header{
+	height: 100vh;
+}
+#ball_first{
+	float: right;
+	position: relative;
+	left: 150%;
+	bottom: 25%;
+	width: 80vw;
+	height: 80vw;
+	border-radius: 50%;
+	background-color: #161313;
+}
+#menu{
+	width: 100%;
+	height: 130vw;
+}
+#hello{
+	float: right;
+	text-align: right;
+	margin: 20% 5% 20% 5%;
+}
+#hello h1{
+	color: white;
+	font-size: 10.5vw;
+}
+#hello h2{
+	-webkit-text-stroke: 0.1vw white;
+	color: #161313;
+	font-size: 9vw;
+}
+ul{
+	float: right;
+	width: 60%;
+	text-align: center;
+	list-style: none;
+	margin: 10% 20%;
+	display: block;
+}
+li{
+	margin: 10% 0;
+	transition: 0.5s;
+}
+ul a{
+	text-decoration: none;
+	font-size: 5vw;
+	color: white;
+	transition: 0.5s;
+}
+#skills_content{
+	margin: 0 5%;
+	padding: 25% 0;
+	text-align: center;
+}
+#skills_content h1{
+	font-size: 11vw;
+	color: #161313;
+	padding: 15% 0 10% 0;
+}
+#skills_content h2{
+	font-size: 7vw;
+	color: #161313;
+	font-weight: normal;
+}
+#skills_content h3{
+	font-size: 5vw;
+	color: grey;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: normal;
+}
+#skills_content h4{
+	font-weight: normal;
+	font-size: 5vw;
+	color: #161313;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+#skills_logo{
+	padding: 17% 0% 0 0%;
+	height: 140vw;
+}
+#skills_logo_block_first{
+	height: 75%;
+}
+#skills_logo_block_second{
+	height: 75%;
+	width: 100%;
+}
+#skills_logo_block_first div{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin: 0 auto;
+}
+#skills_logo_block_second div{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin: 0 auto;
+}
+#div_work_web{
+	height: auto;
+	padding-bottom: 10vw;
+}
+#div_work_web_text{
+	color: white;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 15% 0;
+}
+#div_work_web_text h1{
+	font-size: 10vw;
+}
+#div_work_web_text h2{
+	font-size: 5vw;
+	font-weight: normal;
+	padding: 10% 2% 0 2%;
+}
+.conteiner_example{
+	height: 230vw;
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+.conteiner_example div{
+	border-radius: 1vw;
+	height: 58vw;
+	transition: 1s;
+	margin-bottom: 8vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	opacity: 1;
+}
+.conteiner_example div video{
+	width: 90%;
+	margin: 0 5%;
+	height: 100%;
+	opacity: 1;
+	object-fit: cover;
+	user-select: none;
+	transition: 0.3s;
+}
+.conteiner_example div img{
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	pointer-events: none;
+}
+.conteiner_example div h1{
+	user-select: none;
+	opacity: 1;
+	color: white;
+	font-size: 7vw;
+	position: relative;
+	text-align: center;
+	bottom: 20vw;
+	transition: 0.75s;
+}
+.conteiner_example div:hover h1{
+	opacity: 1;
+	font-size: 7vw;
+}
+.conteiner_example div:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+#div_video{
+	height: 110vw;
+}
+#div_video div{
+	width: 90%;
+	height: 60vw;
+	margin: 0 auto;
+}
+#div_video h1{
+	width: 90%;
+	z-index: 0;
+	position: relative;
+	font-size: 8vw;
+	color: black;
+	left: 5vw;
+	bottom: -27.25vw;
+	-webkit-text-stroke: 0.035vw white;
+	user-select: none;
+}
+#div_video h2{
+	width: 60%;
+	z-index: 2;
+	position: relative;
+	font-size: 12vw;
+	color: white;
+	left: 10vw;
+	bottom: -37vw;
+	text-shadow: 0.5vw 0.5vw 0.5vw black;
+	user-select: none;
+}
+#div_video h3{
+	width: 50%;
+	z-index: 2;
+	position: relative;
+	font-size: 15vw;
+	color: white;
+	left: 45vw;
+	bottom: 25vw;
+	user-select: none;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-name: blick;
+}
+#section_url{
+	height: 20vw;
+	background: black;
+}
+#div_url{
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+}
+#div_url div{
+	height: 16vw;
+	cursor: pointer;
+}
+#div_url div:hover img{
+	width: 19%;
+	position: relative;
+	top: 1vw;
+	left: 4vw;
+}
+#div_url img{
+	z-index: 1;
+	transition: 0.25s;
+	width: 15%;
+	position: relative;
+	top: 2.5vw;
+	left: 5.25vw;
+}
+#div_url h1{
+	float: right;
+	position: relative;
+	top: 5vw;
+	color: white;
+	font-size: 5.25vw;
+}
+#footer{
+	height: 80vw;
+	pointer-events: none;
+}
+footer{
+	background-color: white;
+	height: 75vw;
+	width: 100%;
+	z-index: -5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+#div_footer h1{
+	font-size: 10vw;
+}
+#div_footer h2{
+	font-size: 7vw;
+	padding: 5% 0 0 0;
+	font-weight: normal;
+}
+#div_footer h4{
+	position: relative;
+	font-size: 30vw;
+	color: rgba(0, 0, 0, 0.15);
+	font-family: fantasy;
+	font-weight: 1000;
+	padding: 0 0;
+	font-weight: normal;
+}
+}
