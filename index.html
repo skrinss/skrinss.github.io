@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Skrins</title>
+	<link rel="website icon" href="style/Skrins.png" type="png">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+	<header>
+		<div id="left-header">
+			<a href="">
+				<img id="logo" src="style/Skrins.png">
+			</a>
+			<div id="ball-first">
+				<div id="ball-second">
+					<div id="ball-third">
+						<img id="img-i" src="style/i.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="right-header">
+			<div id="top-div">
+				<div id="menu">
+					<input id="burger" type="checkbox">
+					<label for="burger">
+						<span></span>
+					</label>
+					<div id="menu-burger">
+						<div>
+							<ul>
+								<li>
+									<a href="#left-header" onclick="checkFalse()">
+										Главная
+									</a>
+								</li>
+								<li>
+									<a href="#scetion-info" onclick="checkFalse()">
+										Навыки
+									</a>
+								</li>
+								<li>
+									<a href="#scetion-work" onclick="checkFalse()">
+										Работы
+									</a>
+								</li>
+								<li>
+									<a href="#link-hover" onclick="checkFalse()">
+										Связь
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom-div">
+				<h1>Привет, я Владислав</h1>
+				<h2>Front-end Developer</h2>
+			</div>
+		</div>
+	</header>
+	<section id="scetion-info">
+		<div id="div-text">
+			<h3>
+				Хороший программист — это не тот, кто пишет без ошибок.</br>Это тот, кто умеет находить и исправлять ошибки.
+			</h3>
+			<h1>
+				Навыки & опыт
+			</h1>
+			<h2>
+				Я специализируюсь на фронтенд-разработке, а также обладаю опытом в разработке игр.</br></br>Я специализируюсь на разработке адаптивных веб-сайтов, используя HTML, CSS и JavaScript. Мой опыт включает в себя работу с фреймворком Bootstrap для ускорения процесса разработки и CMS WordPress для управления контентом. Помимо этого, я занимаюсь разработкой 2D игр с использованием Unity и программирования на C#.
+
+			</h2>
+		</div>
+		<div id="div-logo">
+			<div>
+				<img src="style/logo/html.png">
+			</div>
+			<div>
+				<img src="style/logo/css.png">
+			</div>
+			<div>
+				<img src="style/logo/js.png">
+			</div>
+			<div>
+				<img src="style/logo/unity.png">
+			</div>
+			<div>
+				<img src="style/logo/bootstrap.png">
+			</div>
+			<div>
+				<img src="style/logo/wordpress.png">
+			</div>
+		</div>
+	</section>
+	<section id="scetion-work">
+		<div class="info-div">
+			<div class="left">
+				<h1>
+					Web
+				</h1>
+				<h2>
+					Примеры разработаных веб-сайтов.
+				</h2>
+			</div>
+		</div>
+		<div class="work-div">
+			<div style="background: url(style/site/1.png); background-size: auto 100%; background-position: center center;">
+				<button onclick="document.location.href = '';">
+					Просмотреть!
+				</button>
+			</div>
+			<div style="background: url(style/site/2.png); background-size: auto 100%; background-position: center center;" class="void-margin-top">
+				<button onclick="document.location.href = '';">
+					Просмотреть!
+				</button>
+			</div>
+			<div style="background: url(style/site/3.png); background-size: auto 100%; background-position: center center;">
+				<button onclick="document.location.href = '';">
+					Просмотреть!
+				</button>
+			</div>
+			<div style="background: url(style/site/1.png); background-size: auto 100%; background-position: center center;" class="void-margin-top">
+				<button onclick="document.location.href = '';">
+					Просмотреть!
+				</button>
+			</div>
+		</div>
+		<div class="info-div">
+			<div class="right">
+				<h1>
+					Game
+				</h1>
+				<h2>
+					Примеры разработанных мобильных игр.
+				</h2>
+			</div>
+		</div>
+		<div class="work-div">
+			<div class="void-margin-top">
+				<button onclick="document.location.href = '';">
+					Скачать!
+				</button>
+				<video src="style/video/1.mp4" loop autoplay muted></video>
+			</div>
+			<div >
+				<button onclick="document.location.href = '';">
+					Скачать!
+				</button>
+				<video src="style/video/2.mp4" loop autoplay muted></video>
+			</div>
+			<div class="void-margin-top">
+				<button onclick="document.location.href = '';">
+					Скачать!
+				</button>
+				<video src="style/video/3.mp4" loop autoplay muted></video>
+			</div>
+			<div >
+				<button onclick="document.location.href = '';">
+					Скачать!
+				</button>
+				<video src="style/video/1.mp4" loop autoplay muted></video>
+			</div>
+		</div>
+	</section>
+	<section id="section-link">
+		<div id="link-div">
+			<div id="link-hover" onclick="document.location.href = '';">
+				<div id="link-1">
+					<img src="style/telegram.png">
+				</div>
+				<div id="link-2">
+					<h1>Связаться!</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section-void"></section>
+	<footer>
+		<h2>
+			Я был бы рад сотрудничтеству
+		</h2>
+		<h3>
+			Свяжись со мной!
+		</h3>
+		<h1>
+			Skrins
+		</h1>
+	</footer>
+	<script type="text/javascript">
+		function checkFalse() {
+			document.getElementById("burger").checked = false;
+		}
+	</script>
+</body>
+</html>
