@@ -294,10 +294,11 @@ ul li a:hover:before{
 	border: none;
 	padding: 0.85vw 1.2vw;
 	font-size: 0.75vw;
-	border-radius: 0.75vw;
+	border-radius: 3vw;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8);
 	text-transform: uppercase;
-	box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.3);
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.8);
 	cursor: pointer;
 }
 .work-div div:hover button{
@@ -726,10 +727,11 @@ ul li a:hover:before{
 	border: none;
 	padding: 3vw 8vw;
 	font-size: 7vw;
-	border-radius: 6vw;
+	border-radius: 10vw;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8);
 	text-transform: uppercase;
-	box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.3);
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.8);
 	cursor: pointer;
 }
 .work-div div:hover button{
