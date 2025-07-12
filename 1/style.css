@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.text-red{
+    font-weight: bold;
+    font-size: 0.9vw;
+    color: #F64B4B;
+    text-transform: uppercase;
+}
+.text-grey{
+    color: #585E6A;
+    font-weight: normal;
+    line-height: 2vw;
+    font-size: 1.2vw;
+}
+.text-black{
+    font-weight: bold;
+    font-size: 2vw;
+    color: #161C2D;
+}
+.blue-button{
+    background-color: #473BF0;
+    padding: 1vw 1.75vw;
+    font-weight: bold;
+    font-size: 1vw;
+    color: white;
+    border-radius: 0.5vw;
+    transition: background-color 0.25s ease-in-out;
+}
+.blue-button:hover{
+    background-color: #3b31c9;
+}
+.line{
+    width: 100%;
+    margin: 0 auto;
+}
+.line img{
+    width: 100%;
+}
+.bg-blue{
+    background-color: #E3E5F9;
+}
+.bg-red{
+    background-color: #F4E6E8;
+}
+.bg-green{
+    background-color: #E6F4EE;
+}
+.bg-grey{
+    background-color: #DEE2E5;
+}
+header{
+    background: url("img/BG.png") no-repeat center center/cover;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 0;
+}
+.bar ul{
+    display: flex;
+    gap: 3vw;
+    list-style: none;
+}
+.bar ul li a{
+    font-size: 1vw;
+    font-weight: bold;
+    color: #161C2D;
+}
+.welcome{
+    display: flex;
+    padding: 6vw 0;
+}
+.welcome div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vw;
+}
+.welcome img{
+    width: 70%;
+    padding: 0 0 0 20%;
+}
+.welcome h1{
+    font-size: 3vw;
+}
+.our-services{
+    padding: 6vw 0;
+    text-align: center;
+}
+.our-services > img{
+    width: 15%;
+    position: relative;
+    left: 30vw;
+    z-index: -1;
+    top: 28vw;
+}
+.our-services > div > h1{
+    padding: 1vw 0 0 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.work{
+    display: flex;
+    gap: 3vw;
+    width: 90%;
+    margin: 0 auto;
+}
+.work div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 3vw 1.5vw;
+    border-radius: 0.5vw;
+}
+.work div:first-child{
+    background-color: #68D585;
+}
+.work div:nth-child(2){
+    background-color: #473BF0;
+}
+.work div:last-child{
+    background-color: #F64B4B;
+}
+.work div img{
+    height: 5vw;
+    object-fit: contain;
+}
+.work div h1{
+    color: white;
+    font-size: 1.1vw;
+}
+.work div h2{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+    font-weight: normal;
+}
+.work div a{
+    padding: 1vw 0 0 0;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.work div a::after{
+    content: " ➔";
+    transition: padding 0.25s ease-in-out;
+}
+.work div a:hover::after{
+    padding: 0 0 0 1vw;
+}
+.feddback{
+    display: flex;
+    padding: 0 0 5vw 0;
+    align-items: center;
+}
+.feddback div:first-child{
+    flex: 1;
+}
+.feddback div:first-child > img{
+    width: 50%;
+    padding: 0 0 0 30%;
+}
+.feddback div:last-child{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.feddback div:last-child h1{
+    font-size: 1.25vw;
+    width: 70%;
+}
+.feddback div:last-child > img{
+    width: 15%;
+}
+.feddback div:last-child h2{
+    font-size: 1vw;
+}
+.our-story{
+    padding: 6vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+.our-story > div > h1{
+    width: 50%;
+    padding: 2vw 0 0 0;
+}
+.story-img{
+    display: flex;
+}
+.story-img > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.story-img > div > img{
+    width: 75%;
+}
+.box-img{
+    display: flex;
+}
+.box-img img:first-child{
+    width: 55%;
+    object-fit: contain;
+    position: relative;
+    top: -4vw;
+}
+.box-img img:nth-child(2){
+    width: 20%;
+    object-fit: contain;
+    position: relative;
+    top: -14vw;
+    right: 3vw;
+}
+.box-img img:last-child{
+    width: 25%;
+    object-fit: contain;
+}
+.story-img h3{
+    font-size: 1vw;
+}
+.facts{
+    padding: 0 0 5vw 0;
+    display: flex;
+    gap: 6vw;
+}
+.facts > div{
+    flex: 1;
+    text-align: center;
+}
+.facts h1{
+    font-size: 3vw;
+}
+.facts h2{
+    font-size: 0.9vw;
+}
+.why-choose > img{
+    width: 8%;
+    position: relative;
+    right: 15.5vw;
+    top: 10vw;
+}
+.why-choose > div:nth-child(2){
+    text-align: center;
+}
+.why-choose > div:nth-child(2) > h1{
+    padding: 1vw 0 0 0;
+    width: 60%;
+    margin: 0 auto;
+}
+.choose-box{
+    padding: 6vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    width: 85%;
+    margin: 0 auto;
+    text-align: start;
+}
+.choose-box > div{
+    width: 46%;
+    display: flex;
+    gap: 2vw;
+    align-items: flex-start;
+}
+.choose-box > div > div:first-child{
+    flex: 1;
+    aspect-ratio: 1/1;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose-box > div > div:first-child img{
+    width: 50%;
+}
+.choose-box > div > div:last-child{
+    flex: 5;
+}
+.choose-box h1{
+    font-size: 1vw;
+}
+.choose-box h2{
+    font-size: 0.85vw;
+    padding: 1vw 0 0 0;
+    line-height: 1.5vw;
+}
+.why-choose > div:last-child{
+    padding: 5vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+.why-choose > div:last-child > div:first-child{
+    flex: 3;
+}
+.why-choose > div:last-child > div:last-child{
+    flex: 1;
+}
+.why-choose > div:last-child h2{
+    font-size: 1vw;
+    padding: 1vw 0 0 0;
+}
+.why-choose > div:last-child a{
+    float: right;
+}
+.case > div:first-child, .case > div:last-child{
+    padding: 5vw 0;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.case > div > h1{
+    padding: 0 0 1vw 0;
+}
+.case a{
+    color: #473BF0;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.case a::after{
+    content: " ➔";
+    transition: padding 0.25s ease-in-out;
+}
+.case a:hover::after{
+    padding: 0 0 0 1vw;
+}
+.case-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.case-box > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+.case-box img{
+    width: 100%;
+}
+.case-box h1{
+    font-size: 1vw;
+    padding: 2vw 0 1vw 2vw;
+}
+.case-box h2{
+    font-size: 1.25vw;
+    padding: 0 0 0 2vw;
+}
+#testimonial{
+    background: url("img/BG2.png") no-repeat center center/cover;
+}
+.comment{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8vw 0;
+    text-align: center;
+    gap: 2vw;
+}
+.comment h1{
+    color: #68D585;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.comment h2{
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.comment img{
+    padding: 2vw 0 0 0;
+    width: 10%;
+}
+.comment h3{
+    color: white;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+.comment h4{
+    padding: 0.5vw 0 0 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9vw;
+    font-weight: normal;
+}
+footer{
+    background-color: #161C2D;
+}
+.end > div:first-child{
+    padding: 6vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+.end > div:first-child > div:first-child{
+    flex: 3;
+}
+.end > div:first-child > div:last-child{
+    flex: 1;
+}
+.end > div:first-child h1{
+    color: white;
+}
+.end > div:first-child h2{
+    font-size: 1vw;
+    color: #AEB0B6;
+    padding: 1vw 0 0 0;
+}
+.end > div:first-child a{
+    float: right;
+}
+.end > div:last-child{
+    padding: 6vw 0;
+    display: flex;
+    gap: 5vw;
+}
+.end > div:last-child > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.end > div:last-child > div:first-child{
+    flex: 2;
+}
+.end > div:last-child h1{
+    color: white;
+    font-size: 1.8vw;
+}
+.end > div:last-child h2{
+    color: white;
+    font-size: 0.8vw;
+}
+.end > div:last-child a{
+    color: white;
+    font-size: 0.8vw;
+}
+@media (orientation: portrait) {
+    .container{
+        width: 80%;
+    }
+    .text-red{
+        font-size: 7vw;
+    }
+    .text-grey{
+        line-height: 8vw;
+        font-size: 6vw;
+    }
+    .text-black{
+        font-size: 8vw;
+    }
+    .blue-button{
+        padding: 5vw 8vw;
+        font-size: 6vw;
+        border-radius: 0vw;
+    }
+    /* .bar{
+        flex-direction: column;
+    }
+    .bar ul{
+        flex-direction: column;
+    }
+    .bar ul li a{
+        font-size: 5vw;
+    } */
+    .bar{
+        display: none;
+    }
+    .welcome{
+        flex-direction: column;
+        gap: 15vw;
+        padding: 5vw 0 20vw 0;
+    }
+    .welcome img{
+        padding: 0;
+        width: 100%;
+    }
+    .welcome h1{
+        font-size: 13vw;
+        padding: 3vw 0 0 0;
+    }
+    .welcome h2{
+        font-size: 7vw;
+        padding: 5vw 0;
+        line-height: 10vw;
+    }
+    .our-services{
+        padding: 20vw 0;
+    }
+    .our-services > div > h1{
+        width: 100%;
+        padding: 0 0 10vw 0;
+    }
+    .work{
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .work div{
+        border-radius: 0;
+        padding: 8vw 0;
+        gap: 5vw;
+    }
+    .work div img{
+        height: 50vw;
+    }
+    .work div h1{
+        font-size: 8vw;
+    }
+    .work div h2{
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+    .work div a{
+        font-size: 7vw;
+    }
+    .work div a:hover::after{
+        padding: 0 0 0 7vw;
+    }
+    .feddback{
+        flex-direction: column;
+        text-align: center;
+        padding: 0 0 10vw 0;
+    }
+    .feddback div:first-child > img{
+        padding: 0 0 4vw 0;
+    }
+    .feddback div:last-child{
+        align-items: center;
+        gap: 5vw;
+    }
+    .feddback div:last-child > img{
+        width: 50%;
+    }
+    .feddback div:last-child h1{
+        font-size: 6vw;
+    }
+    .feddback div:last-child h2{
+        font-size: 5vw;
+    }
+    .our-story > div > h1{
+        font-size: 10vw;
+        width: 100%;
+    }
+    .our-story{
+        gap: 10vw;
+        padding: 10vw 0;
+    }
+    .story-img{
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .box-img img:first-child{
+        top: 0;
+    }
+    .box-img img:last-child{
+        width: 30%;
+    }
+    .box-img img:nth-child(2){
+        right: 5vw;
+        width: 15%;
+    }
+    .story-img h3{
+        font-size: 4vw;
+        padding: 9vw 0;
+        line-height: 9vw;
+    }
+    .facts{
+        flex-direction: column;
+        gap: 10vw;
+        padding: 0 0 20vw 0;
+    }
+    .facts h1{
+        font-size: 15vw;
+    }
+    .facts h2{
+        font-size: 6vw;
+    }
+    .why-choose > div:nth-child(2) > h1{
+        width: 100%;
+        font-size: 9vw;
+    }
+    .choose-box{
+        margin: 0;
+        width: 100%;
+        gap: 10vw;
+        padding: 10vw 0;
+    }
+    .choose-box > div{
+        width: 100%;
+        gap: 5vw;
+    }
+    .choose-box h1{
+        font-size: 5vw;
+    }
+    .choose-box h2{
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+    .why-choose > div:last-child{
+        flex-direction: column;
+        padding: 10vw 0;
+    }
+    .why-choose > div:last-child h2{
+        font-size: 5vw;
+        padding: 4vw 0;
+    }
+    .case > div:first-child, .case > div:last-child{
+        width: 100%;
+        padding: 8vw 0;
+    }
+    .case-box{
+        flex-direction: column;
+        gap: 10vw;
+    }
+    .case-box h1{
+        font-size: 7vw;
+        padding: 5vw 0 2vw 2vw;
+    }
+    .case-box h2{
+        font-size: 5vw;
+    }
+    .case-box > div{
+        gap: 10vw;
+    }
+    .case a{
+        font-size: 7vw;
+    }
+    .case a:hover::after{
+        padding: 0 0 0 7vw;
+    }
+    .comment{
+        width: 100%;
+        gap: 6vw;
+        padding: 20vw 0;
+    }
+    .comment h1{
+        font-size: 5vw;
+    }
+    .comment h2{
+        font-size: 7vw;
+    }
+    .comment img{
+        width: 30%;
+    }
+    .comment h3{
+        font-size: 5vw;
+    }
+    .comment h4{
+        font-size: 5vw;
+    }
+    .end > div:first-child{
+        flex-direction: column;
+        padding: 10vw 0;
+    }
+    .end > div:first-child h2{
+        font-size: 5vw;
+        padding: 4vw 0;
+    }
+    .end > div:last-child{
+        flex-direction: column;
+        padding: 10vw 0;
+        gap: 15vw;
+    }
+    .end > div:last-child h1{
+        font-size: 10vw;
+    }
+    .end > div:last-child h2{
+        font-size: 4vw;
+    }
+    .end > div:last-child > div{
+        gap: 5vw;
+    }
+    .end > div:last-child a{
+        font-size: 4vw;
+    }
+}
