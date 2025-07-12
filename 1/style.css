@@ -515,6 +515,11 @@ footer{
     .work{
         flex-direction: column;
         border-radius: 0;
+        gap: 15vw;  
+    }
+    .why-choose > img{
+        width: 18%;
+        right: 20vw;
     }
     .work div{
         border-radius: 0;
@@ -631,7 +636,7 @@ footer{
     }
     .why-choose > div:last-child{
         flex-direction: column;
-        padding: 10vw 0;
+        padding: 15vw 0;
     }
     .why-choose > div:last-child h2{
         font-size: 6vw;
@@ -643,7 +648,7 @@ footer{
     }
     .case > div:first-child, .case > div:last-child{
         width: 100%;
-        padding: 10vw 0;
+        padding: 15vw 0;
     }
     .case-box{
         flex-direction: column;
@@ -688,7 +693,7 @@ footer{
     }
     .end > div:first-child{
         flex-direction: column;
-        padding: 10vw 0;
+        padding: 15vw 0;
     }
     .end > div:first-child h2{
         font-size: 6vw;
@@ -697,7 +702,7 @@ footer{
     }
     .end > div:last-child{
         flex-direction: column;
-        padding: 10vw 0;
+        padding: 15vw 0;
         gap: 15vw;
     }
     .end > div:last-child h1{
