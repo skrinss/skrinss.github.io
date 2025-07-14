@@ -501,7 +501,7 @@ footer{
         line-height: 12vw;
     }
     .welcome h2{
-        font-size: 6vw;
+        font-size: 5vw;
         padding: 5vw 0;
         line-height: 10vw;
     }
@@ -535,7 +535,7 @@ footer{
     }
     .work div h2{
         font-size: 5vw;
-        line-height: 8vw;
+        line-height: 7.5vw;
     }
     .work div a{
         font-size: 6.5vw;
@@ -559,7 +559,7 @@ footer{
         width: 50%;
     }
     .feddback div:last-child h1{
-        font-size: 6vw;
+        font-size: 5vw;
         width: 100%;
         line-height: 9vw;
     }
@@ -589,7 +589,7 @@ footer{
         width: 15%;
     }
     .story-img h3{
-        font-size: 6vw;
+        font-size: 5vw;
         padding: 9vw 0;
         line-height: 9vw;
     }
@@ -602,7 +602,8 @@ footer{
         font-size: 15vw;
     }
     .facts h2{
-        font-size: 6vw;
+        font-size: 5vw;
+        padding: 2vw 0 0 0;
         line-height: 9vw;
     }
     .why-choose > div:nth-child(2) > h1{
@@ -628,7 +629,7 @@ footer{
         font-size: 7vw;
     }
     .choose-box h2{
-        font-size: 6vw;
+        font-size: 5vw;
         line-height: 9vw;
         padding: 5vw 0 0 0;
     }
@@ -640,7 +641,7 @@ footer{
         padding: 15vw 0;
     }
     .why-choose > div:last-child h2{
-        font-size: 6vw;
+        font-size: 5vw;
         padding: 4vw 0;
         line-height: 10vw;
     }
@@ -660,7 +661,7 @@ footer{
         padding: 5vw 0 4vw 2vw;
     }
     .case-box h2{
-        font-size: 6vw;
+        font-size: 5vw;
     }
     .case-box > div{
         gap: 15vw;
@@ -680,8 +681,8 @@ footer{
         font-size: 5vw;
     }
     .comment h2{
-        font-size: 6vw;
-        line-height: 10vw;
+        font-size: 5vw;
+        line-height: 8vw;
     }
     .comment img{
         width: 50%;
@@ -697,7 +698,7 @@ footer{
         padding: 15vw 0;
     }
     .end > div:first-child h2{
-        font-size: 6vw;
+        font-size: 5vw;
         padding: 6vw 0;
         line-height: 10vw;
     }
@@ -710,13 +711,13 @@ footer{
         font-size: 10vw;
     }
     .end > div:last-child h2{
-        font-size: 6vw;
+        font-size: 5vw;
         line-height: 10vw;
     }
     .end > div:last-child > div{
         gap: 5vw;
     }
     .end > div:last-child a{
-        font-size: 6vw;
+        font-size: 4vw;
     }
 }
