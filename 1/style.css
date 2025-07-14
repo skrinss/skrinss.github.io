@@ -498,6 +498,7 @@ footer{
     .welcome h1{
         font-size: 13vw;
         padding: 3vw 0 0 0;
+        line-height: 12vw;
     }
     .welcome h2{
         font-size: 6vw;
@@ -537,7 +538,7 @@ footer{
         line-height: 8vw;
     }
     .work div a{
-        font-size: 7vw;
+        font-size: 6.5vw;
     }
     .work div a:hover::after{
         padding: 0 0 0 7vw;
@@ -665,7 +666,7 @@ footer{
         gap: 15vw;
     }
     .case a{
-        font-size: 7vw;
+        font-size: 8vw;
     }
     .case a:hover::after{
         padding: 0 0 0 7vw;
