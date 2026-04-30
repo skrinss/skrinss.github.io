@@ -1,0 +1,75 @@
+# Автоопределение текстовых файлов
+* text=auto
+
+# ===== Текстовые файлы (принудительный LF) =====
+# Стили
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+*.pcss text eol=lf
+
+# Скрипты
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+
+# Разметка
+*.html text eol=lf
+*.htm text eol=lf
+*.vue text eol=lf
+
+# Данные и конфиги
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+.prettierrc text eol=lf
+.babelrc text eol=lf
+
+# Веб-специфичное (реальные имена файлов, не маски)
+robots.txt text eol=lf
+sitemap.xml text eol=lf
+manifest.json text eol=lf
+
+# ===== Бинарные файлы (без изменений) =====
+# Изображения
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.avif binary
+
+# Шрифты
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary
+
+# Медиа
+*.mp4 binary
+*.webm binary
+
+# Архивы и доки
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+
+# ===== Lock-файлы =====
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+pnpm-lock.yaml text eol=lf

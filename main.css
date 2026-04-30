@@ -1,0 +1,283 @@
+/* --- 1. СЛОЙ ПЕРЕМЕННЫХ (THEME & TOKENS) --- */
+:root {
+    /* Фоны */
+    --bg-primary:    #ffffff;  /* Основной фон страницы */
+    --bg-secondary:  #f8f8fa;  /* Вторичный фон: карточки, сайдбары, секции */
+    --bg-tertiary:   #f1f1f4;  /* Третичный фон: инпуты, выделенные строки таблиц */
+    --bg-hover:       rgba(0, 0, 0, 0.04);  /* Фон при наведении (универсальный) */
+
+    /* Текст */
+    --text-primary:   #1a1a1a;  /* Основной текст: заголовки, body */
+    --text-secondary: #5e5e64;  /* Вторичный текст: подписи, мета-информация */
+    --text-tertiary:  #8e8e93;  /* Третичный текст: placeholder, hint, disabled */
+    --text-link:      #2563eb;  /* Ссылки (добавлен для полноты) */
+
+    /* Границы */
+    --border-color:   #e2e2e8;  /* Основной цвет границ */
+    --border-light:   #eeeef2;  /* Лёгкие разделители, сплиттеры */
+    --border-hover:   #c4c4ca;  /* Граница при наведении/фокусе */
+    
+    --accent:               #3b82f6;  /* Яркий, но не агрессивный */
+    --accent-light:         #93bbfd;  /* Светлый акцент: фон значков, бейджи */
+    --accent-dark:          #1d4ed8;  /* Тёмный акцент: нажатые кнопки, hover */
+    --accent-bg:            #eff6ff;  /* Очень светлый фон: выделенные строки */
+
+    --color-success:        #10b981;  /* Основной зелёный */
+    --color-success-light:  #6ee7b7;  /* Светлый */
+    --color-success-dark:   #059669;  /* Тёмный */
+    --color-success-bg:     #ecfdf5;  /* Фон */
+
+    --color-error:          #ef4444;  /* Основной красный */
+    --color-error-light:    #fca5a5;  /* Светлый */
+    --color-error-dark:     #dc2626;  /* Тёмный */
+    --color-error-bg:       #fef2f2;  /* Фон */
+    
+    --color-warning:        #f59e0b;  /* Основной жёлтый */
+    --color-warning-light:  #fcd34d;  /* Светлый */
+    --color-warning-dark:   #d97706;  /* Тёмный */
+    --color-warning-bg:     #fffbeb;  /* Фон */
+
+    --color-info:           #06b6d4;  /* Основной циан */
+    --color-info-light:     #67e8f9;  /* Светлый */
+    --color-info-dark:      #0891b2;  /* Тёмный */
+    --color-info-bg:        #ecfeff;  /* Фон */
+
+    --color-gray-50:        #f9fafb;
+    --color-gray-100:       #f3f4f6;
+    --color-gray-200:       #e5e7eb;
+    --color-gray-300:       #d1d5db;
+    --color-gray-400:       #9ca3af;
+    --color-gray-500:       #6b7280;
+    --color-gray-600:       #4b5563;
+    --color-gray-700:       #374151;
+    --color-gray-800:       #1f2937;
+    --color-gray-900:       #111827;
+
+    --overlay-hover:    rgba(0, 0, 0, 0.04);  /* Едва заметный */
+    --overlay-active:   rgba(0, 0, 0, 0.08);  /* Лёгкий акцент */
+    --overlay-selected: rgba(0, 0, 0, 0.12);  /* Заметное выделение */
+    --overlay-disabled: rgba(255, 255, 255, 0.4); /* Приглушение */
+    --overlay-backdrop: rgba(0, 0, 0, 0.5);   /* Полупрозрачная подложка под модалки */
+    
+    --text-micro:  clamp(0.75rem,  0.25rem + 1.5vi, 0.875rem); /* 12→14px  | подписи, legal-text */
+    --text-small:  clamp(0.875rem, 0.5rem  + 1.5vi, 1rem);     /* 14→16px  | вспомогательный текст */
+    --text-base:   clamp(1rem,     0.75rem + 1vi,  1.125rem);   /* 16→18px  | основной текст */
+    --text-medium: clamp(1.125rem, 0.75rem + 1.5vi, 1.375rem);  /* 18→22px  | акцентный текст, лиды */
+    --text-large:  clamp(1.25rem,  0.75rem + 2vi,  1.75rem);    /* 20→28px  | подзаголовки */
+    --text-xl:     clamp(1.5rem,   0.75rem + 3vi,  2.25rem);    /* 24→36px  | заголовки h3 */
+    --text-2xl:    clamp(1.75rem,  0.75rem + 4vi,  3rem);       /* 28→48px  | заголовки h2 */
+    --text-3xl:    clamp(2rem,     0.75rem + 5vi,  3.75rem);    /* 32→60px  | заголовки h1 */
+    --text-4xl:    clamp(2.5rem,   0.75rem + 6vi,  4.5rem);     /* 40→72px  | hero-заголовки */
+    --text-5xl:    clamp(3rem,     1rem    + 7vi,  5.5rem);     /* 48→88px  | заголовки, лендинги */
+    --text-6xl:    clamp(4rem,     1rem    + 10vi,  7.5rem);     /* 48→88px  | заголовки, лендинги */
+
+    --space-1:  clamp(0.25rem, 0.5vw,  0.5rem); /* 4→8px    | микро: иконки, чипсы, инлайн-отступы */
+    --space-2:  clamp(0.5rem,  1vw,    1rem);   /* 8→16px   | мелкий: паддинг кнопок, gap в тегах */
+    --space-3:  clamp(0.75rem, 1.5vw,  1.5rem); /* 12→24px  | базовый: padding карточек, модалок */
+    --space-4:  clamp(1rem,    2vw,    2rem);   /* 16→32px  | средний: промежутки между секциями */
+    --space-5:  clamp(1.5rem,  3vw,    3rem);   /* 24→48px  | крупный: отбивка контентных блоков */
+    --space-6:  clamp(2rem,    4vw,    4rem);   /* 32→64px  | большой: padding контейнеров */
+    --space-7:  clamp(2.5rem,  5vw,    5rem);   /* 40→80px  | очень большой: секции лендинга */
+    --space-8:  clamp(3rem,    6vw,    6rem);   /* 48→96px  | огромный: расстояния между hero-блоками */
+    --space-9:  clamp(3.5rem,  7vw,    7rem);   /* 56→112px | гигантский: шапка/подвал */
+    --space-10: clamp(4rem,    8vw,    8rem);   /* 64→128px | максимальный: layout-отступы, разрывы страниц */
+    
+    --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);   /* Плавное быстрое начало и мягкое завершение — идеально для появления элементов */
+
+    --duration-very-fast: 100ms;   /* Микро-анимации: ховеры на иконках, ripple-эффект */
+    --duration-fast: 150ms;        /* Быстрые переходы: изменение opacity, мелкие кнопки */
+    --duration-normal: 300ms;      /* Стандартные анимации: выезжающие меню, модалки, переключение табов */
+    --duration-slow: 500ms;        /* Заметные анимации: появление попапов, скролл-анимации, смена страниц */
+    --duration-very-slow: 1000ms;  /* Медленные, акцентные: крупные трансформации, загрузочные экраны, онбординг */
+
+    --radius-xs: 6px;    /* Маленький — чипсы, бейджи, маленькие кнопки, инпуты */
+    --radius-sm: 12px;   /* Средний — карточки, модалки, крупные кнопки */
+    --radius-md: 18px;   /* Базовый — блоки, секции, панели (исправил bs на md) */
+    --radius-lg: 25px;   /* Большой — контейнеры, крупные карточки, виджеты */
+    --radius-xl: 50px;   /* Максимальный — круглые элементы, пилюли, аватарки */
+
+    --shadow-xs: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);                              /* Едва заметная — для карточек на белом фоне */
+    --shadow-sm: 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);  /* Лёгкая — кнопки, инпуты */
+    --shadow-md: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06); /* Средняя — карточки, dropdown */
+    --shadow-lg: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05); /* Выраженная — модалки, попапы */
+    --shadow-xl: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04); /* Максимальная — тостеры, приоритетные элементы */
+    
+    --z-0: -1;    /* Фон, декоративные элементы позади контента */
+    --z-1: 1;     /* Основной слой: текст, карточки, обычный поток страницы (по умолчанию) */
+    --z-2: 10;    /* Приподнятые элементы: прилипающий header, выпадающие меню (dropdown) */
+    --z-3: 100;   /* Перекрывающие элементы: модальные окна (dialog), попапы, сайдбары */
+    --z-4: 200;   /* Всплывающие уведомления: тостеры (toast), снекбары, алерты */
+    --z-5: 800;   /* Переключатели интерфейса: theme-toggle, виджеты поддержки, кнопка «наверх» */
+    --z-6: 999;   /* Критический слой: лоадер страницы, системные ошибки, инструменты разработчика (devtools) */
+
+    --theme-transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Тёмная тема (автоматическая + принудительная) */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]), :root[data-theme="dark"] {
+        --bg-primary:        #0f0f12;
+        --bg-secondary:      #1a1a20;
+        --bg-tertiary:       #25252d;
+        --bg-hover:          rgba(255, 255, 255, 0.05);
+        --text-primary:      #ededef;
+        --text-secondary:    #a1a1a9;
+        --text-tertiary:     #6b6b75;
+        --text-link:         #60a5fa;
+        --border-color:      #2e2e36;
+        --border-light:      #23232a;
+        --border-hover:      #3e3e4a;
+        --overlay-hover:     rgba(255, 255, 255, 0.05);
+        --overlay-active:    rgba(255, 255, 255, 0.1);
+        --overlay-backdrop:  rgba(0, 0, 0, 0.7);
+        --shadow-sm:         0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.15);
+        --shadow-md:         0px 4px 6px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.15);
+        --shadow-lg:         0px 10px 15px rgba(0, 0, 0, 0.3), 0px 4px 6px rgba(0, 0, 0, 0.15);
+        --invert:            0%;
+    }
+}
+
+/* Принудительная светлая тема (перебивает системную) */
+:root[data-theme="light"] {
+    --bg-primary:        #ffffff;
+    --bg-secondary:      #f8f8fa;
+    --bg-tertiary:       #f1f1f4;
+    --bg-hover:          rgba(0, 0, 0, 0.04);
+    --text-primary:      #1a1a1a;
+    --text-secondary:    #5e5e64;
+    --text-tertiary:     #8e8e93;
+    --text-link:         #2563eb;
+    --border-color:      #e2e2e8;
+    --border-light:      #eeeef2;
+    --border-hover:      #c4c4ca;
+    --overlay-hover:     rgba(0, 0, 0, 0.05);
+    --overlay-active:    rgba(0, 0, 0, 0.1);
+    --overlay-backdrop:  rgba(0, 0, 0, 0.5);
+    --shadow-sm:         0px 1px 3px rgba(0, 0, 0, 0.06), 0px 1px 2px rgba(0, 0, 0, 0.04);
+    --shadow-md:         0px 4px 6px rgba(0, 0, 0, 0.06), 0px 2px 4px rgba(0, 0, 0, 0.04);
+    --shadow-lg:         0px 10px 15px rgba(0, 0, 0, 0.08), 0px 4px 6px rgba(0, 0, 0, 0.04);
+    --invert:            100%;
+}
+
+/* --- 2. СБРОС СТИЛЕЙ (CSS RESET) + БАЗОВЫЕ ПРАВИЛА --- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+html {
+    text-size-adjust: 100%;
+    color-scheme: light dark;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+body {
+    min-height: 100svh;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    font-size: var(--text-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: var(--theme-transition);
+}
+
+/* --- 3. ТИПОГРАФИКА И БАЛАНСИРОВКА ТЕКСТА --- */
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    line-height: 1.2;
+    font-weight: 600;
+}
+p {
+    text-wrap: pretty;
+    max-width: 75ch;
+}
+a {
+    color: var(--border-color);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out-quint);
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    transition: all var(--duration-fast) var(--ease-out-quint);
+}
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+::selection {
+    background: var(--accent);
+    color: white;
+    text-shadow: none;
+}
+/* Улучшение доступности медиа */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* --- 3. УТИЛИТАРНЫЙ КЛАСС .CONTAINER (С CONTAINER QUERIES) --- */
+.container {
+    container-type: inline-size;
+    container-name: main-content;
+    width: 100%;
+    max-width: 1920px;
+    margin-inline: auto;
+}
+.cursor{
+    cursor: pointer;
+}
+/* --- 4. БАЗОВЫЕ УТИЛИТЫ (ДЛЯ БЫСТРОЙ РАЗРАБОТКИ) --- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-1 { gap: var(--space-1); }
+.gap-2 { gap: var(--space-2); }
+.gap-3 { gap: var(--space-3); }
+.gap-4 { gap: var(--space-4); }
+.gap-5 { gap: var(--space-5); }
+.gap-6 { gap: var(--space-6); }
+.gap-7 { gap: var(--space-7); }
+.gap-8 { gap: var(--space-8); }
+.gap-9 { gap: var(--space-9); }
+.gap-10 { gap: var(--space-10); }
+.text-uppercase{ text-transform: uppercase; }
+
+/* --- 5. УВАЖЕНИЕ К НАСТРОЙКАМ ПОЛЬЗОВАТЕЛЯ (REDUCED MOTION) --- */
+@media (prefers-reduced-motion: reduce) {
+    *,  *::before,  *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    ::view-transition-old(root),  ::view-transition-new(root) {
+       animation: none !important;
+    }
+    .theme-toggle:hover .theme-icon {
+        transform: none;
+    }
+}

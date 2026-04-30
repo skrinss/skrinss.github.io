@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Владислав | Веб и геймдев | Портфолио</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="devicon.min.css">
+    <link rel="stylesheet" href="locomotive-scroll.css">
+    <script src="locomotive-scroll.min.js"></script>
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <button class="theme-toggle flex items-center justify-center magnetic_link" id="themeToggle" title="Переключить тему">
+        <span class="theme-icon">🌙</span>
+    </button>
+    <button class="menu-toggle flex items-center justify-center magnetic_link" id="menuOpen" title="Показать меню">
+        <span class="menu-span-open"></span>
+    </button>
+    <div class="menu_overlay"></div>
+    <div class="dynamic_menu flex flex-col justify-center gap-5">
+        <button class="menu-toggle flex items-center justify-center" id="menuClose" title="Скрыть меню">
+            <span class="menu-span-close"></span>
+        </button>
+        <div class="fade_left">
+            <p>Навигация</p>
+            <ul>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#about_me">Обо мне</a></li>
+                <li><a href="#stats">Статистика</a></li>
+                <li><a href="#projects">Мои проекты</a></li>
+                <li><a href="#tech">Технологии</a></li>
+                <li><a href="#education">Карьерный путь</a></li>
+                <li><a href="#call_me">Связаться</a></li>
+            </ul>
+        </div>
+        <div class="fade_left">
+            <p>Ссылки</p>
+            <ul>
+                <li><a href="https://github.com/skrinss">GitHub</a></li>
+                <li><a href="https://t.me/sskrinss">Telegram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-scroll-container>
+        <header class="title flex items-center justify-center flex-col gap-4 text-uppercase" id="main">
+            <div class="circle fade_down parallax-layer" id="circle" data-speed="0.04">
+                <div class="circle_outer flex items-center justify-center" id="circleOuter">
+                    <div class="circle_inner flex items-center justify-center" id="circleInner">
+                        <img class="circle_img" src="image/logo.png">
+                    </div>
+                </div>
+            </div>
+            <h1 class="fade_down">
+                Владислав</br>Веб и геймдев
+            </h1>
+            <h2 class="fade_down" id="print">
+                    |
+            </h2>
+            <a href="#call_me" class="magnetic_link cursor fade_down">
+                Связаться
+            </a>
+        </header>
+        <main class="container">
+            <section class="more flex items-center justify-center gap-6" id="about_me">
+                <div class="flex flex-col items-center">
+                    <div class="me flex flex-col gap-3">
+                        <h2 class="fade_down">
+                            Full-stack + Unity 2D
+                        </h2>
+                        <p class="fade_down">
+                            Я программист полного цикла: работаю и с интерфейсами, и с серверной частью.
+                            Создаю <span class="red">сайты</span> на <span class="blue">HTML</span>, <span class="blue">CSS</span>, <span class="blue">JavaScript</span> и <span class="blue">PHP</span>, проектирую базы данных в <span class="blue">MySQL</span>.
+                            Для сложных проектов использую <span class="blue">Vue</span> на фронтенде и <span class="blue">Laravel</span> на бэкенде.
+                            Отдельное направление — интерактивные лендинги: параллакс-эффекты, анимации при скролле и другие динамичные сценарии.
+                        </p>
+                        <p class="fade_down">
+                            Помимо веб-разработки, в качестве хобби создаю <span class="red">2D-игры</span> на <span class="blue">Unity</span> с использованием <span class="blue">C#</span> — под мобильные телефоны и компьютеры.
+                            Уверенно работаю с физикой, анимацией и игровыми интерфейсами.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center" >
+                    <div class="code fade_down parallax-layer" data-speed="0.04">
+                        <div class="flex gap-1 items-center">
+                            <span class="ball" style="background: indianred;"></span>
+                            <span class="ball" style="background: gold;"></span>
+                            <span class="ball" style="background: mediumseagreen;"></span>
+                            <p>
+                                profile.js
+                            </p>
+                        </div>
+                        <div>
+    <pre>
+    <span class="punctuation">01</span>  <span class="keyword">const</span> <span class="name">developer</span> <span class="punctuation">=</span> {
+    <span class="punctuation">02</span>      name<span class="punctuation">:</span> <span class="string">"Vlad"</span>,
+    <span class="punctuation">03</span>      role<span class="punctuation">:</span> <span class="string">"Full-Stack Developer"</span>,
+    <span class="punctuation">04</span>      stack<span class="punctuation">:</span> [<span class="string">"Laravel"</span>, <span class="string">"Vue"</span>, <span class="string">"Tailwind"</span>],
+    <span class="punctuation">05</span>      tools<span class="punctuation">:</span> [<span class="string">"Git"</span>, <span class="string">"Docker"</span>, <span class="string">"GitHub"</span>],
+    <span class="punctuation">06</span>      hobby<span class="punctuation">:</span> <span class="string">"2D games in Unity (C#)"</span>,
+    <span class="punctuation">07</span>      status<span class="punctuation">:</span> <span class="string">"open for work"</span>
+    <span class="punctuation">08</span>  };
+    </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stats flex items-center justify-center gap-8 text-uppercase" id="stats">
+                <div>
+                    <div class="stats_number">3+</div>
+                    <p>Года в IT</p>
+                </div>
+                <div>
+                    <div class="stats_number">5+</div>
+                    <p>Проекты</p>
+                </div>
+                <div>
+                    <div class="stats_number">7+</div>
+                    <p>Технологий в стеке</p>
+                </div>
+                <div>
+                    <div class="stats_number">4+</div>
+                    <p>Игр на Unity</p>
+                </div>
+                <div>
+                    <div class="stats_number">∞</div>
+                    <p>Чашек кофе</p>
+                </div>
+            </section>
+            <section class="projects flex flex-col gap-5">
+                <h2 class="fade_down" id="projects">
+                    Мои проекты
+                </h2>
+                <div class="projects_list">
+                    <div class="box fade_down flex flex-col gap-2">
+                        <div class="image">
+                            <img class="image_picture" src="image/course1.png">
+                            <div class="view_project flex items-center justify-center">
+                                <a href="">
+                                    Смотреть проект →
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                            AXIS Training
+                        </h3>
+                        <p>
+                            Корпоративный портал с обучением: адаптация новичков и регулярные курсы с лекциями и тестами, начисление баллов с возможностью пересдачи. В личном кабинете — прогресс по каждому курсу.
+                        </p>
+                    </div>
+                    <div class="box fade_down flex flex-col gap-2">
+                        <div class="image">
+                            <img class="image_picture" src="image/course1.png">
+                            <div class="view_project flex items-center justify-center">
+                                <a href="">
+                                    Смотреть проект →
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                            AXIS Training
+                        </h3>
+                        <p>
+                            Корпоративный портал с обучением: адаптация новичков и регулярные курсы с лекциями и тестами, начисление баллов с возможностью пересдачи. В личном кабинете — прогресс по каждому курсу.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="tech">
+                <div class="tech_track top" id="tech">
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-php-plain colored"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-vuejs-plain colored"></i>
+                        <p>Vue</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-laravel-plain colored"></i>
+                        <p>Laravel</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <p>Tailwind</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-docker-plain colored"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-unity-plain"></i>
+                        <p>Unity</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-csharp-plain colored"></i>
+                        <p>C#</p>
+                    </div>
+                    <!-- ------------------------------------------------------------------ -->
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-php-plain colored"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-vuejs-plain colored"></i>
+                        <p>Vue</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-laravel-plain colored"></i>
+                        <p>Laravel</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <p>Tailwind</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-docker-plain colored"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-unity-plain"></i>
+                        <p>Unity</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-csharp-plain colored"></i>
+                        <p>C#</p>
+                    </div>
+                </div>
+                <div class="tech_track back">
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-php-plain colored"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-vuejs-plain colored"></i>
+                        <p>Vue</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-laravel-plain colored"></i>
+                        <p>Laravel</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <p>Tailwind</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-docker-plain colored"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-unity-plain"></i>
+                        <p>Unity</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-csharp-plain colored"></i>
+                        <p>C#</p>
+                    </div>
+                    <!-- ------------------------------------------------------------------ -->
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-php-plain colored"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-vuejs-plain colored"></i>
+                        <p>Vue</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-laravel-plain colored"></i>
+                        <p>Laravel</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <p>Tailwind</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-docker-plain colored"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-unity-plain"></i>
+                        <p>Unity</p>
+                    </div>
+                    <div class="tech_items flex flex-col gap-1">
+                        <i class="devicon-csharp-plain colored"></i>
+                        <p>C#</p>
+                    </div>
+                </div>
+            </section>
+            <section class="education flex flex-col gap-5">
+                <h2 class="fade_down" id="education">
+                    Карьерный путь
+                </h2>
+                <div>
+                    <div class="education_items flex gap-5">
+                        <div class="line flex justify-center"><div class="fade_left"></div></div>
+                        <div class="info fade_left flex flex-col gap-2">
+                            <div class="flex gap-2 items-center">
+                                <p class="tag text-uppercase">
+                                    Самообучение
+                                </p>
+                                <p class="time">
+                                    2019
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="text-uppercase">
+                                    Начало в IT
+                                </h3>
+                                <ul>
+                                    <li>2019 - Начало самостоятельного изучения веб-разработки;</li>
+                                    <li>2020 - Первые проекты на HTML, CSS, JS;</li>
+                                    <li>2021 - Освоил Git, начал работать с Bootstrap;</li>
+                                    <li>2022 - Изучение PHP и MySQL, первый опыт с бэкендом;</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education_items flex gap-5">
+                        <div class="line flex justify-center"><div class="fade_left"></div></div>
+                        <div class="info fade_left flex flex-col gap-2">
+                            <div class="flex gap-2 items-center">
+                                <p class="tag text-uppercase">
+                                    Образование
+                                </p>
+                                <p class="time">
+                                    2022 - 2026
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="text-uppercase">
+                                    Бакалавр веб-разработки
+                                </h3>
+                                <ul>
+                                    <li>Университет ДГТУ, направление «Веб-разработка».  </li>
+                                    <li>Ключевые дисциплины: PHP, MySQL, Vue;</li>
+                                    <li>Инструменты и технологии: Git, Docker, Laravel, Tailwind;</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education_items flex gap-5">
+                        <div class="line flex justify-center"><div class="fade_left"></div></div>
+                        <div class="info fade_left flex flex-col gap-2">
+                            <div class="flex gap-2 items-center">
+                                <p class="tag text-uppercase">
+                                    Пэт-проекты
+                                </p>
+                                <p class="time">
+                                    2026 - Сейчас
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="text-uppercase">
+                                    Практическая разработка
+                                </h3>
+                                <ul>
+                                    <li>Сайт с курсами на PHP + MySQL</li>
+                                    <li>Интернет-магазин на Vue + Tailwind</li>
+                                    <li>Блог на Laravel с админ панелью</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="call_me flex flex-col gap-5" id="call_me">
+                <h2 class="fade_down">
+                    Связаться со мной
+                </h2>
+                <div class="link flex gap-5 fade_down">
+                    <div class="link_list flex flex-col gap-2">
+                        <h3>
+                            Нажмите
+                        </h3>
+                        <a href="mailto:vlad-panshin.working@mail.ru" class="flex gap-2 items-center">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <div class="flex flex-col gap-1">
+                                <p>
+                                    Email
+                                </p>
+                                <p>
+                                    vlad-panshin.working@mail.ru
+                                </p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/skrinss" class="flex gap-2 items-center">
+                            <i class="devicon-github-original"></i>
+                            <div class="flex flex-col gap-1">
+                                <p>
+                                    GitHub
+                                </p>
+                                <p>
+                                    github.com/skrinss
+                                </p>
+                            </div>
+                        </a>
+                        <a href="https://t.me/sskrinss" class="flex gap-2 items-center">
+                            <i class="fab fa-telegram" aria-hidden="true"></i>
+                            <div class="flex flex-col gap-1">
+                                <p>
+                                    Telegram
+                                </p>
+                                <p>
+                                    t.me/sskrinss
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="link_hello flex flex-col gap-4 justify-center items-center">
+                        <div class="sphere flex justify-center items-center">
+                            🔥 <!-- 💡🚀🧑‍💻 -->
+                        </div>
+                        <div class="flex flex-col gap-2 justify-center items-center">
+                            <p class="call_text_main">
+                                Открыт к сотрудничеству
+                            </p>
+                            <p class="call_text_second">
+                                Верстаю под мобильные, планшеты и десктоп.
+                            </p>
+                            <a href="#call_me" class="text-uppercase magnetic_link cursor">
+                                Связаться
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="flex justify-between items-center">
+            <p>© 2026 Владислав Веб-разработчик</p>
+        </footer>
+    </div>
+</body>
+<script src="scripts.js"></script>
+<script>
+    (function () {
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+            multiplier: 0.5 // Чем меньше число, тем медленнее скролл
+        });
+    })();
+</script>
+</html>
