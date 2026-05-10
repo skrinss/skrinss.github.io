@@ -135,8 +135,10 @@ body {
     min-height: 100svh;
     text-align: center;
     letter-spacing: 0.5rem;
-    border-bottom: solid 1px var(--border-color);
     padding: var(--space-7) 0;
+}
+.title-container{
+    border-bottom: solid 1px var(--border-color);
 }
 .title h1{
     font-size: var(--text-3xl);
@@ -323,8 +325,10 @@ body {
 /* ------------------------------------------------------------------------------ */
 .tech{
     padding: var(--space-4) 0;
-    border-block: solid 1px var(--border-color);
     overflow: hidden;
+}
+.tech-container{
+    border-block: solid 1px var(--border-color);
 }
 .tech_track{
     display: flex;
@@ -353,7 +357,7 @@ body {
 }
 /* ------------------------------------------------------------------------------ */
 .education{
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
     padding: var(--space-6) 0;
 }
@@ -398,9 +402,11 @@ body {
     list-style: none;
 }
 /* ------------------------------------------------------------------------------ */
+.call_me_section{
+    border-block: solid 1px var(--border-color);
+}
 .call_me{
     padding: var(--space-6) 0;
-    border-block: solid 1px var(--border-color);
 }
 .link{
     width: 60%;
